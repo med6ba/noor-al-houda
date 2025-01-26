@@ -1,0 +1,38 @@
+/*
+Color palette:
+  #121212
+  #D4AF37
+*/
+
+/* Importing fonts */
+
+@font-face {
+  font-family: "Uthmani";
+  src: url("../fonts/uthmanic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IBM-R";
+  src: url("../fonts/IBM-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "IBM-SB";
+  src: url("../fonts/IBM-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-M";
+  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Poppins-B";
+  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #121212 !important;
+  color: #d4af37 !important;
+}

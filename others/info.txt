@@ -1,0 +1,24 @@
+body {
+  background-color: #121212; /* لون الخلفية */
+  color: #D4AF37; /* لون النصوص */
+}
+
+button {
+  background-color: #D4AF37; /* لون الأزرار */
+  color: #121212; /* لون النصوص داخل الأزرار */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #b89030; /* لون ذهبي أغمق قليلاً عند التمرير */
+}
+
+
+color palette:
+#D4AF37
+#121212
+
+
+ 
