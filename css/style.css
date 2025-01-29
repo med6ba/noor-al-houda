@@ -5,7 +5,6 @@ Color palette:
 */
 
 /* Importing fonts */
-
 @font-face {
   font-family: "Uthmani";
   src: url("../fonts/uthmanic.ttf") format("truetype");
@@ -26,7 +25,6 @@ Color palette:
   font-family: "Poppins-B";
   src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
-
 * {
   margin: 0;
   padding: 0;
