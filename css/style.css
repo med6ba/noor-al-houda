@@ -6,8 +6,8 @@ Color palette:
 
 /* Importing fonts */
 @font-face {
-  font-family: "Uthmani";
-  src: url("../fonts/uthmanic.ttf") format("truetype");
+  font-family: "Uthmanic-Warsh";
+  src: url("../fonts/Uthmanic-Warsh.otf") format("truetype");
 }
 @font-face {
   font-family: "IBM-R";
