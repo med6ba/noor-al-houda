@@ -33,6 +33,7 @@ Color palette:
 body {
   background-color: #121212 !important;
   color: #d4af37 !important;
+  font-family: "IBM-R", sans-serif !important;
 }
 nav {
   backdrop-filter: blur(5px);
@@ -42,9 +43,6 @@ nav {
 }
 nav div {
   padding: 0.5rem 1rem;
-}
-header {
-  height: 100vh;
 }
 #more {
   background-color: #d4af37;
