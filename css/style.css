@@ -43,13 +43,13 @@ nav {
 nav div {
   padding: 0.5rem 1rem;
 }
-header{
+header {
   height: 100vh;
 }
-#more{
+#more {
   background-color: #d4af37;
   color: #121212;
 }
-#more:hover{
-  background-color: #c4a338;;
+#more:hover {
+  background-color: #c4a338;
 }
