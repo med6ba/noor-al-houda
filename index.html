@@ -23,28 +23,40 @@
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
   </head>
   <body>
+    <div id="pre-loader"></div>
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg sticky-top container">
       <div class="container">
         <a class="navbar-brand mx-auto" href="index.html">
-          <img src="./assets/logo.png" alt="Bootstrap" height="50" />
+          <img src="./assets/logo.png" alt="Bootstrap" height="65" />
         </a>
       </div>
     </nav>
     <!-- Header -->
     <header class="container text-center">
-      <div>
+      <div class="content">
         <h1>مرحبا بكم في موقع نور الهدى</h1>
         <p>منصتكم الدينية المتكاملة لما يحتاجه كل مسلم</p>
         <a href="./subpages/test.html">
-          <button class="btn btn-lg" id="more">مشاهدة المزيد <i class="fa-solid fa-up-right-from-square"></i></button>
+          <button class="btn btn-lg" id="more">
+            مشاهدة المزيد <i class="fa-solid fa-up-right-from-square"></i>
+          </button>
         </a>
       </div>
       <div>
-        <img src="./assets/img-header.jpg" width="50%" />
+        <img src="./assets/img-header.jpg" width="40%" />
       </div>
     </header>
     <!-- Required scripts -->
+    <script>
+      var loader = document.getElementById("pre-loader");
+      window.addEventListener("load", function () {
+        setTimeout(function () {
+          loader.style.display = "none";
+        }, 1000);
+      });
+    </script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>

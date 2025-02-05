@@ -30,19 +30,17 @@ Color palette:
   padding: 0;
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   background-color: #121212 !important;
   color: #d4af37 !important;
   font-family: "IBM-R", sans-serif !important;
-  width: 100%;
-  height: 100%;
 }
 nav {
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
   background: #3b3b3b80;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  min-height: 14vh;
 }
 nav div {
   padding: 0.5rem 1rem;
@@ -54,6 +52,14 @@ nav div {
 #more:hover {
   background-color: #c4a338;
 }
-header{
-  min-height: 86vh;
+
+#pre-loader {
+  background: #121212
+    url(https://cdn.pixabay.com/animation/2022/07/29/03/42/03-42-15-221_512.gif)
+    no-repeat center center;
+  background-size: 5%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
 }
