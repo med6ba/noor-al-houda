@@ -90,3 +90,24 @@ header img {
   border: #d4af37 3px solid;
   transition: 0.2s all ease;
 }
+main  {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main section h1{
+  font-size: 2rem;
+  font-weight: 800;
+}
+main section div {
+  margin-top: 40px;
+  padding: 10px !important;
+}
+.card{
+  background-color: #3b3b3b80 !important;
+}
+.card .card-title{
+  color: #d4af37 !important;
+  font-size: 2rem;
+}
