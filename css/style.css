@@ -33,6 +33,9 @@ Color palette:
 html,
 body {
   height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   background-color: #121212 !important;
   color: #d4af37 !important;
   font-family: "IBM-R", sans-serif !important;
@@ -42,7 +45,7 @@ nav {
   background: #3b3b3b80;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  height: 15vh;
+  flex: 0 0 15vh;
 }
 nav div {
   padding: 0.5rem 1rem;
@@ -50,6 +53,9 @@ nav div {
 #more {
   background-color: #d4af37;
   color: #121212;
+}
+#more-link {
+  text-decoration: none;
 }
 #more:hover {
   background-color: #c4a338;
@@ -65,5 +71,22 @@ nav div {
   z-index: 100;
 }
 header {
-  height: 85vh;
+  flex: 1;
+  margin: 30px;
+  padding: 10px;
+}
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+header p {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+header img {
+  width: 40%;
+  height: auto;
+  border-radius: 25px;
+  border: #d4af37 3px solid;
+  transition: 0.2s all ease;
 }
