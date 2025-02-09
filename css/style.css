@@ -53,6 +53,7 @@ nav div {
 #more {
   background-color: #d4af37;
   color: #121212;
+  margin: 20px;
 }
 #more-link {
   text-decoration: none;
@@ -90,24 +91,33 @@ header img {
   border: #d4af37 3px solid;
   transition: 0.2s all ease;
 }
-main  {
+main {
   flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main section h1{
-  font-size: 2rem;
+main section h1 {
+  font-size: 2.4rem;
   font-weight: 800;
 }
 main section div {
-  margin-top: 40px;
   padding: 10px !important;
 }
-.card{
+.card {
   background-color: #3b3b3b80 !important;
+  transition: 0.3s all ease;
 }
-.card .card-title{
+.card .card-title {
   color: #d4af37 !important;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-size: 1.5rem;
+}
+.card:hover {
+  background-color: #3b3b3b !important;
+  transition: 0.3s all ease;
+}
+main section div a{
+  color: #d4af37 !important;
+  text-decoration: none;
 }
