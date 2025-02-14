@@ -44,7 +44,7 @@ nav {
   background: #303030;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  flex: 0 0 12vh; 
+  flex: 0 0 12vh;
 }
 nav div {
   padding: 0.5rem 1rem;
@@ -53,6 +53,11 @@ nav div {
   background-color: #d4af37;
   color: #121212;
   margin: 20px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 20px;
+  font-weight: 500;
 }
 #more-link {
   text-decoration: none;
@@ -72,7 +77,6 @@ nav div {
 }
 header {
   margin: 50px 0 0 0;
-  height: 100vh !important;
 }
 header h1 {
   font-size: 3.5rem;
@@ -81,13 +85,6 @@ header h1 {
 header p {
   font-size: 1.8rem;
   font-weight: 500;
-}
-header img {
-  width: 50%;
-  height: auto;
-  border-radius: 25px;
-  border: #d4af37 2px solid;
-  transition: 0.2s all ease;
 }
 main {
   flex: 1;
