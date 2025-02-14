@@ -55,7 +55,7 @@ nav div {
   margin: 20px;
   border: none;
   padding: 10px 20px;
-  border-radius: 12px;
+  border-radius: 7px;
   font-size: 20px;
   font-weight: 500;
 }
@@ -104,9 +104,9 @@ main section div {
   transition: 0.3s all ease;
 }
 .card .card-title {
+  font-weight: 500;
   color: #d4af37 !important;
-  font-size: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .card:hover {
   background-color: #3b3b3b !important;
