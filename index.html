@@ -32,18 +32,23 @@
     </nav>
     <!-- Header -->
     <header class="container text-center">
-      <h1 class="fs-1 fs-md-2 fs-lg-3">مرحبا بكم في موقع نور الهدى</h1>
+      <h1 class="fs-1 fs-md-2 fs-lg-3">مرحبا بك في موقع نور الهدى</h1>
       <p class="fs-4 fs-md-5 fs-lg-6">
-        منصتكم الدينية المتكاملة لما يحتاجه كل مسلم
+        منصتك الدينية الشاملة لأهم ما تحتاجه كمسلم
       </p>
       <button class="btn btn-primary" id="more">
         معرفة المزيد <i class="fa-solid fa-arrow-up-right-from-square"></i>
       </button>
     </header>
+    <hr class="container" />
     <!-- Main -->
     <main class="container text-center" id="main">
       <section class="container my-4">
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          تصفح الأقسام
+        </h1>
         <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
+          <!-- Internal content -->
           <article class="col">
             <a href="#" class="text-decoration-none">
               <div
@@ -69,7 +74,7 @@
               <div
                 class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
               >
-                <h5 class="card-title">أذكار الصباح</h5>
+                <h5 class="card-title">أذكـــار الصباح</h5>
                 <i class="fa-solid fa-circle fa-2x"></i>
               </div>
             </a>
@@ -79,8 +84,102 @@
               <div
                 class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
               >
-                <h5 class="card-title">أذكار المساء</h5>
+                <h5 class="card-title">أذكـــار المساء</h5>
                 <i class="fa-solid fa-moon fa-2x"></i>
+              </div>
+            </a>
+          </article>
+        </div>
+        <br /><br />
+        <!-- E-Books -->
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          كتب إلكترونية
+        </h1>
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">تفسير الجلالين</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">السيرة النبوية</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">صحيح البخاري</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">الرقية الشرعية</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+        </div>
+        <br /><br />
+        <!-- Audios -->
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          صوتيات مفيدة
+        </h1>
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">تفسير الجلالين</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">السيرة النبوية</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">صحيح البخاري</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">الرقية الشرعية</h5>
+                <i class="fa-solid fa-file-pdf fa-2x"></i>
               </div>
             </a>
           </article>
@@ -88,14 +187,7 @@
       </section>
     </main>
     <!-- Required scripts -->
-    <script>
-      var loader = document.getElementById("pre-loader");
-      window.addEventListener("load", function () {
-        setTimeout(function () {
-          loader.style.display = "none";
-        }, 1000);
-      });
-    </script>
+    <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>

@@ -2,13 +2,16 @@
 Color palette:
   #121212
   #D4AF37
+  #303030
 */
 
 /* Importing fonts */
+/* الخط العثماني لرواية ورش */
 @font-face {
   font-family: "Uthmanic-Warsh";
   src: url("../fonts/Uthmanic-Warsh.otf") format("truetype");
 }
+/* IBM arabic */
 @font-face {
   font-family: "IBM-R";
   src: url("../fonts/IBM-Regular.ttf") format("truetype");
@@ -17,6 +20,7 @@ Color palette:
   font-family: "IBM-SB";
   src: url("../fonts/IBM-SemiBold.ttf") format("truetype");
 }
+/* Poppins */
 @font-face {
   font-family: "Poppins-M";
   src: url("../fonts/Poppins-Medium.ttf") format("truetype");
@@ -25,6 +29,7 @@ Color palette:
   font-family: "Poppins-B";
   src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
+/* Initializing page */
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +57,7 @@ nav div {
 #more {
   background-color: #d4af37;
   color: #121212;
-  margin: 20px;
+  margin: 10px 0 0 0;
   border: none;
   padding: 10px 20px;
   border-radius: 7px;
@@ -76,18 +81,12 @@ nav div {
   z-index: 100;
 }
 header {
-  margin: 50px 0 0 0;
+  margin: 50px 0;
 }
 header h1 {
-  font-size: 3.5rem;
   font-weight: 800;
 }
-header p {
-  font-size: 1.8rem;
-  font-weight: 500;
-}
 main {
-  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -118,4 +117,18 @@ main section div a {
 }
 .col i {
   color: #d4af37 !important;
+  margin-top: 10px;
+}
+#section-header {
+  margin: 0 0 10px 0;
+}
+hr {
+  border: none !important;
+  height: 2px !important;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    #d4af37,
+    rgba(0, 0, 0, 0)
+  ) !important;
 }
