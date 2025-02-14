@@ -127,7 +127,7 @@ main section div a {
 }
 hr {
   border: none !important;
-  height: 2px !important;
+  height: 4px !important;
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
