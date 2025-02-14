@@ -25,19 +25,21 @@
   <body>
     <div id="pre-loader"></div>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg container shadow">
+    <nav class="navbar navbar-expand-lg container shadow sticky-top">
       <a href="index.html" class="navbar-brand mx-auto">
         <img src="./assets/logo.png" alt="Bootstrap" height="65" />
       </a>
     </nav>
     <!-- Header -->
     <header class="container text-center">
-      <h1>مرحبا بكم في موقع نور الهدى</h1>
-      <p>منصتكم الدينية المتكاملة لما يحتاجه كل مسلم</p>
+      <h1 class="fs-1 fs-md-2 fs-lg-3">مرحبا بكم في موقع نور الهدى</h1>
+      <p class="fs-4 fs-md-5 fs-lg-6">
+        منصتكم الدينية المتكاملة لما يحتاجه كل مسلم
+      </p>
       <img
         src="assets/img-header.jpg"
         alt="img-header"
-        class="mx-auto mt-3 d-block"
+        class="mx-auto mt-3 d-block img-fluid w-60 w-sm-70 w-md-50 w-lg-60"
       />
       <a href="#main" id="more-link">
         <button class="btn btn-lg mx-auto" id="more">
@@ -47,51 +49,49 @@
     </header>
     <!-- Main -->
     <main class="container text-center" id="main">
-      <section class="row">
-        <h1>تصفح الأقسام</h1>
-        <div class="col-md-3">
-          <a href="#">
-            <div class="card mb-4">
-              <h5 class="card-title">
-                القرآن الكريم
-                <br />
-                <i class="fa-solid fa-book-quran"></i>
-              </h5>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <a href="#">
-            <div class="card mb-4">
-              <h5 class="card-title">
-                حصن المسلم
-                <br />
-                <i class="fa-solid fa-user-shield"></i>
-              </h5>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="#">
-            <div class="card mb-4">
-              <h5 class="card-title">
-                أذكار الصباح
-                <br />
-                <i class="fa-solid fa-circle"></i>
-              </h5>
-            </div>
-          </a>
-        </div>
-        <div class="col-md-3">
-          <a href="#">
-            <div class="card mb-4">
-              <h5 class="card-title">
-                أذكار المساء
-                <br />
-                <i class="fa-solid fa-moon"></i>
-              </h5>
-            </div>
-          </a>
+      <section class="container my-5">
+        <h1 class="text-center mb-4">تصفح الأقسام</h1>
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">القرآن الكريم</h5>
+                <i class="fa-solid fa-book-quran fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">حصن المسلم</h5>
+                <i class="fa-solid fa-user-shield fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">أذكار الصباح</h5>
+                <i class="fa-solid fa-circle fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">أذكار المساء</h5>
+                <i class="fa-solid fa-moon fa-2x"></i>
+              </div>
+            </a>
+          </article>
         </div>
       </section>
     </main>

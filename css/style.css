@@ -32,7 +32,6 @@ Color palette:
 }
 html,
 body {
-  height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -42,10 +41,10 @@ body {
 }
 nav {
   backdrop-filter: blur(3px);
-  background: #3b3b3b80;
+  background: #303030;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  flex: 0 0 15vh;
+  flex: 0 0 12vh; 
 }
 nav div {
   padding: 0.5rem 1rem;
@@ -72,23 +71,22 @@ nav div {
   z-index: 100;
 }
 header {
-  flex: 1;
-  margin: 30px;
-  padding: 10px;
+  margin: 50px 0 0 0;
+  height: 100vh !important;
 }
 header h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 800;
 }
 header p {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 500;
 }
 header img {
-  width: 40%;
+  width: 50%;
   height: auto;
   border-radius: 25px;
-  border: #d4af37 3px solid;
+  border: #d4af37 2px solid;
   transition: 0.2s all ease;
 }
 main {
@@ -105,7 +103,7 @@ main section div {
   padding: 10px !important;
 }
 .card {
-  background-color: #3b3b3b80 !important;
+  background-color: #303030 !important;
   transition: 0.3s all ease;
 }
 .card .card-title {
@@ -117,7 +115,10 @@ main section div {
   background-color: #3b3b3b !important;
   transition: 0.3s all ease;
 }
-main section div a{
+main section div a {
   color: #d4af37 !important;
   text-decoration: none;
+}
+.col i {
+  color: #d4af37 !important;
 }
