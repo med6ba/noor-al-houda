@@ -1,8 +1,9 @@
 /*
 Color palette:
-  #121212
-  #D4AF37
-  #303030
+  #121212: general bg
+  #D4AF37: accent color
+  #303030: nav/cards bg
+  #bbbbbb: secondary text color
 */
 
 /* Importing fonts */
@@ -84,7 +85,9 @@ header {
   margin: 50px 0;
 }
 header h1 {
+  color: #bbbbbb;
   font-weight: 800;
+  margin: 0 10px 15px 10px;
 }
 main {
   display: flex;
@@ -104,7 +107,7 @@ main section div {
 }
 .card .card-title {
   font-weight: 500;
-  color: #d4af37 !important;
+  color: #bbbbbb !important;
   font-size: 1.6rem;
 }
 .card:hover {
@@ -117,7 +120,7 @@ main section div a {
 }
 .col i {
   color: #d4af37 !important;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 #section-header {
   margin: 0 0 10px 0;
@@ -131,4 +134,11 @@ hr {
     #d4af37,
     rgba(0, 0, 0, 0)
   ) !important;
+}
+#site-name {
+  color: #d4af37;
+}
+footer p {
+  font-size: 1.3rem;
+  font-weight: 600;
 }
