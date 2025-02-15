@@ -67,8 +67,8 @@ body {
 nav {
   backdrop-filter: blur(3px);
   background: #303030;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
   flex: 0 0 12vh;
 }
 nav div {
@@ -80,8 +80,8 @@ nav div {
   margin: 10px 0 0 0;
   border: none;
   padding: 10px 20px;
-  border-radius: 7px;
-  font-size: 20px;
+  border-radius: 15px;
+  font-size: 25px;
   font-weight: 500;
 }
 #more-link {
@@ -120,18 +120,15 @@ main {
 main section div {
   padding: 10px !important;
 }
-#header-img{
+#header-img {
   border: 2px #d4af37 solid;
-  border-radius: 25px !important;
-  margin: 20px;
-  transition: 0.2s all ease;
-}
-#header-img:hover{
-  transform: translateY(3px);
+  border-radius: 15px !important;
+  margin: 15px;
   transition: 0.2s all ease;
 }
 .card {
   cursor: pointer;
+  border-radius: 15px !important;
   background-color: #303030 !important;
   transition: 0.4s all ease;
 }
@@ -169,8 +166,8 @@ hr {
 footer {
   background-color: #303030;
   color: #d4af37;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
   padding: 20px 0 0 0;
 }
 footer p {
@@ -179,32 +176,31 @@ footer p {
 }
 #progress {
   position: fixed;
-  bottom: 15px;
-  right: 15px;
-  height: 70px;
-  width: 70px;
+  bottom: 12px;
+  right: 12px;
+  height: 40px;
+  width: 40px;
   display: none;
   place-items: center;
   border-radius: 50%;
-  box-shadow: 0 0 50px 20px #121212;
   cursor: pointer;
   z-index: 99999;
 }
 #progress-value {
   display: block;
-  height: calc(100% - 15px);
-  width: calc(100% - 15px);
+  height: calc(100% - 8px);
+  width: calc(100% - 8px);
   background-color: #121212;
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 25px;
+  font-size: 20px;
   color: #d4af37;
 }
 .carousel-inner {
   background-color: #303030;
   padding: 20px;
-  border-radius: 25px;
+  border-radius: 15px;
   margin-bottom: -70px;
 }
 .carousel-item {
@@ -231,12 +227,10 @@ p .hadit-span,
 .douae-span {
   color: #bbbbbb;
 }
-
 .carousel-control-prev,
 .carousel-control-next {
   transform: translateY(40px);
 }
-
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
