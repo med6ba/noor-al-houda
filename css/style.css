@@ -86,9 +86,13 @@ header {
   margin: 50px 0;
 }
 header h1 {
-  color: #bbbbbb;
+  color: #d4af37;
   font-weight: 800;
   margin: 0 10px 15px 10px;
+}
+header p {
+  color: #bbbbbb;
+  margin: 0 10px 15px 10px !important;
 }
 main {
   display: flex;
@@ -172,6 +176,7 @@ footer p {
   background-color: #303030;
   padding: 20px;
   border-radius: 25px;
+  margin-bottom: -70px;
 }
 .carousel-item {
   position: relative;
@@ -197,6 +202,12 @@ p .hadit-span,
 .douae-span {
   color: #bbbbbb;
 }
+
+.carousel-control-prev,
+.carousel-control-next {
+  transform: translateY(40px);
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
