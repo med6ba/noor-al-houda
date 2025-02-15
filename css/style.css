@@ -146,14 +146,14 @@ footer p {
 }
 #progress {
   position: fixed;
-  bottom: 20px;
-  right: 10px;
+  bottom: 15px;
+  right: 15px;
   height: 70px;
   width: 70px;
   display: none;
   place-items: center;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 50px 20px #121212;
   cursor: pointer;
   z-index: 99999;
 }
@@ -165,11 +165,53 @@ footer p {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  font-size: 35px;
+  font-size: 25px;
   color: #d4af37;
 }
+.carousel-inner {
+  background-color: #303030;
+  padding: 20px;
+  border-radius: 25px;
+}
+.carousel-item {
+  position: relative;
+  height: 400px;
+  text-align: justify;
+}
+.carousel-item p {
+  width: 80%;
+  margin: auto;
+  color: #d4af37;
+  font-size: 2rem;
+  min-height: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+p .quran-span {
+  color: #bbbbbb;
+  font-family: "uthmanic-warsh";
+}
+p .hadit-span,
+.douae-span {
+  color: #bbbbbb;
+}
+/* Tablet Media Query */
+@media (max-width: 1024px) {
+  .carousel-item {
+    height: 500px;
+  }
+}
+/* Mobile Media Query */
 @media (max-width: 768px) {
   #pre-loader {
     background-size: 15%;
+  }
+  .carousel-item {
+    height: 450px;
+  }
+  .carousel-item p {
+    font-size: 1.5rem;
   }
 }
