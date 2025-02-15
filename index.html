@@ -23,7 +23,12 @@
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
   </head>
   <body>
+    <!-- Page loader -->
     <div id="pre-loader"></div>
+    <!-- Back to TOP -->
+    <div id="progress">
+      <span id="progress-value">&#x1F815;</span>
+    </div>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg container shadow sticky-top">
       <a href="index.html" class="navbar-brand mx-auto">
@@ -46,11 +51,11 @@
     <!-- Main -->
     <main class="container text-center" id="main">
       <section class="container my-4">
-        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-          الأقسام الرئيسية
+        <h1 class="text-center fs-1" id="section-header">
+          تصفح الأقسام
         </h1>
+        <br>
         <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
-          <!-- Internal content -->
           <article class="col">
             <a href="#" class="text-decoration-none">
               <div
@@ -92,11 +97,12 @@
             </a>
           </article>
         </div>
-        <br /><br />
-        <!-- E-Books -->
-        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-          الكتب الإلكترونية
+        <hr>
+        <br>
+        <h1 class="text-center fs-1" id="section-header">
+          مصادر خارجية
         </h1>
+        <br>
         <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
           <article class="col">
             <a href="#" class="text-decoration-none">
@@ -139,11 +145,6 @@
             </a>
           </article>
         </div>
-        <br /><br />
-        <!-- Audios -->
-        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-          المرئيات المسموعة
-        </h1>
         <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
           <article class="col">
             <a href="#" class="text-decoration-none">
@@ -186,11 +187,7 @@
             </a>
           </article>
         </div>
-        <br /><br />
-        <!-- E-Books -->
-        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-          الأقسام الفرعية
-        </h1>
+        <!-- About 
         <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-3">
           <article class="col">
             <a href="#" class="text-decoration-none">
@@ -232,14 +229,34 @@
               </div>
             </a>
           </article>
-        </div>
+        </div> -->
       </section>
     </main>
+    <!-- Quots section -->
+    <!-- horizontal line -->
+    <hr class="container" />
+    <aside class="container text-center my-4">
+      <h1 class="text-center fs-1" id="section-header">
+        اقتباسات مميزة
+      </h1>
+      
+    </aside>
+    <!-- Q&A section -->
+    <!-- horizontal line -->
+    <hr class="container" />
+    <aside class="container text-center my-4">
+      <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+        الأسئلة الشائعة
+      </h1>
+      
+    </aside>
     <!-- horizontal line -->
     <hr class="container" />
     <!-- Footer -->
     <footer class="container text-center">
-      <p>جميع الحقوق محفوظة &copy; 2025</p>
+      <div class="container">
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+      </div>
     <!-- Required scripts -->
     <script src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>

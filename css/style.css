@@ -40,6 +40,7 @@ html,
 body {
   margin: 0;
   display: flex;
+  scroll-behavior: smooth;
   flex-direction: column;
   background-color: #121212 !important;
   color: #d4af37 !important;
@@ -53,7 +54,7 @@ nav {
   flex: 0 0 12vh;
 }
 nav div {
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 }
 #more {
   background-color: #d4af37;
@@ -75,7 +76,7 @@ nav div {
   background: #121212
     url(https://cdn.pixabay.com/animation/2022/07/29/03/42/03-42-15-221_512.gif)
     no-repeat center center;
-  background-size: 5%;
+  background-size: 6%;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -94,16 +95,12 @@ main {
   justify-content: center;
   align-items: center;
 }
-main section h1 {
-  font-size: 2.4rem;
-  font-weight: 800;
-}
 main section div {
   padding: 10px !important;
 }
 .card {
   background-color: #303030 !important;
-  transition: 0.3s all ease;
+  transition: 0.4s all ease;
 }
 .card .card-title {
   font-weight: 500;
@@ -112,7 +109,7 @@ main section div {
 }
 .card:hover {
   background-color: #3b3b3b !important;
-  transition: 0.3s all ease;
+  transition: 0.4s all ease;
 }
 main section div a {
   color: #d4af37 !important;
@@ -124,6 +121,7 @@ main section div a {
 }
 #section-header {
   margin: 0 0 10px 0;
+  font-weight: 800;
 }
 hr {
   border: none !important;
@@ -135,10 +133,43 @@ hr {
     rgba(0, 0, 0, 0)
   ) !important;
 }
-#site-name {
+footer {
+  background-color: #303030;
   color: #d4af37;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+  padding: 20px 0 0 0;
 }
 footer p {
   font-size: 1.3rem;
   font-weight: 600;
+}
+#progress {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  height: 70px;
+  width: 70px;
+  display: none;
+  place-items: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  z-index: 99999;
+}
+#progress-value {
+  display: block;
+  height: calc(100% - 15px);
+  width: calc(100% - 15px);
+  background-color: #121212;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 35px;
+  color: #d4af37;
+}
+@media (max-width: 768px) {
+  #pre-loader {
+    background-size: 15%;
+  }
 }
