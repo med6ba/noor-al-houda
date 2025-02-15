@@ -103,6 +103,7 @@ main section div {
   padding: 10px !important;
 }
 .card {
+  cursor: pointer;
   background-color: #303030 !important;
   transition: 0.4s all ease;
 }
