@@ -36,6 +36,24 @@ Color palette:
   padding: 0;
   box-sizing: border-box;
 }
+
+::selection {
+  background-color: #d4af37;
+  color: #121212;
+}
+
+body::-webkit-scrollbar {
+  width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #303030;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #d4af37;
+}
+
 html,
 body {
   margin: 0;
@@ -101,6 +119,16 @@ main {
 }
 main section div {
   padding: 10px !important;
+}
+#header-img{
+  border: 2px #d4af37 solid;
+  border-radius: 25px !important;
+  margin: 20px;
+  transition: 0.2s all ease;
+}
+#header-img:hover{
+  transform: translateY(3px);
+  transition: 0.2s all ease;
 }
 .card {
   cursor: pointer;
