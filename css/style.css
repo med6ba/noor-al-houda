@@ -306,6 +306,12 @@ p .douae-span {
   #pre-loader {
     background-size: 15%;
   }
+  nav{
+    height: 80px;
+  }
+  nav a img{
+    height: 40px;
+  }
   .carousel-item {
     height: 450px;
   }
