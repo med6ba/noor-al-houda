@@ -307,10 +307,10 @@ p .douae-span {
     background-size: 15%;
   }
   .carousel-item {
-    height: 450px;
+    height: 500px;
   }
   .carousel-item p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   nav {
     border-left: none;
@@ -319,5 +319,8 @@ p .douae-span {
   footer {
     border-left: none;
     border-right: none;
+  }
+  footer p{
+    font-size: 1rem;
   }
 }
