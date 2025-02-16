@@ -12,24 +12,29 @@ Color palette:
   font-family: "Uthmanic-Warsh";
   src: url("../fonts/Uthmanic-Warsh.otf") format("truetype");
 }
+
 /* IBM arabic */
 @font-face {
   font-family: "IBM-R";
   src: url("../fonts/IBM-Regular.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "IBM-SB";
   src: url("../fonts/IBM-SemiBold.ttf") format("truetype");
 }
+
 /* Poppins */
 @font-face {
   font-family: "Poppins-M";
   src: url("../fonts/Poppins-Medium.ttf") format("truetype");
 }
+
 @font-face {
   font-family: "Poppins-B";
   src: url("../fonts/Poppins-Bold.ttf") format("truetype");
 }
+
 /* Initializing page */
 * {
   margin: 0;
@@ -64,6 +69,7 @@ body {
   color: #d4af37 !important;
   font-family: "IBM-R", sans-serif !important;
 }
+
 nav {
   backdrop-filter: blur(3px);
   background: #303030;
@@ -71,9 +77,11 @@ nav {
   border-bottom-left-radius: 15px;
   flex: 0 0 12vh;
 }
+
 nav div {
   padding: 1rem 1rem;
 }
+
 #more {
   background-color: #d4af37;
   color: #121212;
@@ -84,12 +92,15 @@ nav div {
   font-size: 25px;
   font-weight: 500;
 }
+
 #more-link {
   text-decoration: none;
 }
+
 #more:hover {
   background-color: #c4a338;
 }
+
 #pre-loader {
   background: #121212
     url(https://cdn.pixabay.com/animation/2022/07/29/03/42/03-42-15-221_512.gif)
@@ -100,59 +111,72 @@ nav div {
   position: fixed;
   z-index: 100;
 }
+
 header {
   margin: 50px 0;
 }
+
 header h1 {
   color: #d4af37;
   font-weight: 800;
   margin: 0 10px 15px 10px;
 }
+
 header p {
   color: #bbbbbb;
   margin: 0 10px 15px 10px !important;
 }
+
 main {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 main section div {
   padding: 10px !important;
 }
+
 #header-img {
   border: 2px #d4af37 solid;
   border-radius: 15px !important;
   margin: 15px;
   transition: 0.2s all ease;
 }
+
 .card {
   cursor: pointer;
   border-radius: 15px !important;
   background-color: #303030 !important;
   transition: 0.4s all ease;
 }
+
 .card .card-title {
   font-weight: 500;
   color: #bbbbbb !important;
   font-size: 1.6rem;
 }
+
 .card:hover {
   background-color: #3b3b3b !important;
   transition: 0.4s all ease;
 }
+
 main section div a {
   color: #d4af37 !important;
   text-decoration: none;
 }
+
 .col i {
   color: #d4af37 !important;
   margin-top: 5px;
 }
+
 #section-header {
   margin: 0 0 10px 0;
   font-weight: 800;
 }
+
 hr {
   border: none !important;
   height: 4px !important;
@@ -163,6 +187,7 @@ hr {
     rgba(0, 0, 0, 0)
   ) !important;
 }
+
 footer {
   background-color: #303030;
   color: #d4af37;
@@ -170,10 +195,12 @@ footer {
   border-top-left-radius: 15px;
   padding: 20px 0 0 0;
 }
+
 footer p {
   font-size: 1.3rem;
   font-weight: 600;
 }
+
 #progress {
   position: fixed;
   bottom: 12px;
@@ -186,6 +213,7 @@ footer p {
   cursor: pointer;
   z-index: 99999;
 }
+
 #progress-value {
   display: block;
   height: calc(100% - 8px);
@@ -197,17 +225,20 @@ footer p {
   font-size: 20px;
   color: #d4af37;
 }
+
 .carousel-inner {
   background-color: #303030;
   padding: 20px;
   border-radius: 15px;
   margin-bottom: -70px;
 }
+
 .carousel-item {
   position: relative;
   height: 400px;
   text-align: justify;
 }
+
 .carousel-item p {
   width: 80%;
   margin: auto;
@@ -219,24 +250,29 @@ footer p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 p .quran-span {
   color: #bbbbbb;
   font-family: "uthmanic-warsh";
 }
+
 p .hadit-span,
 .douae-span {
   color: #bbbbbb;
 }
+
 .carousel-control-prev,
 .carousel-control-next {
   transform: translateY(40px);
 }
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
     height: 500px;
   }
 }
+
 /* Mobile Media Query */
 @media (max-width: 768px) {
   #pre-loader {
