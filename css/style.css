@@ -88,21 +88,23 @@ nav div {
 
 #more {
   background-color: #d4af37;
-  color: #121212;
   margin: 15px 0 0 0;
   border: none;
   padding: 10px 20px;
   border-radius: 10px;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
+  transition: 0.3s all ease;
 }
 
 #more-link {
   text-decoration: none;
+  color: #121212;
 }
 
 #more:hover {
   background-color: #c4a338;
+  transition: 0.3s all ease;
 }
 
 #pre-loader {
@@ -139,13 +141,6 @@ main {
 
 main section div {
   padding: 10px !important;
-}
-
-#header-img {
-  border: 2px #d4af37 solid;
-  border-radius: 15px !important;
-  margin: 15px;
-  transition: 0.2s all ease;
 }
 
 .card {
@@ -275,9 +270,28 @@ p .douae-span {
   transition: 0.4s all ease;
 }
 
+.rating-card p {
+  padding: 0 20px;
+  color: #bbbbbb;
+  font-size: 20px;
+  font-weight: 500;
+}
+
 .rating-card:hover {
   background-color: #3b3b3b !important;
   transition: 0.4s all ease;
+}
+
+.rating-btn {
+  color: #121212;
+}
+
+#support {
+  color: #121212 !important;
+}
+
+#under-construction {
+  font-size: 30px;
 }
 
 /* Tablet Media Query */
@@ -297,9 +311,6 @@ p .douae-span {
   }
   .carousel-item p {
     font-size: 1.5rem;
-  }
-  #more {
-    font-size: 20px;
   }
   nav {
     border-left: none;
