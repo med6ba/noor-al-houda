@@ -57,6 +57,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #d4af37;
+  border-radius: 30px ;
 }
 
 html,
@@ -71,11 +72,14 @@ body {
 }
 
 nav {
-  backdrop-filter: blur(3px);
+  backdrop-filter: blur(10px);
   background: #303030;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
-  flex: 0 0 12vh;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  flex: 0 0 11vh;
+  border-bottom: 2px solid #d4af37;
+  border-left: 2px solid #d4af37;
+  border-right: 2px solid #d4af37;
 }
 
 nav div {
@@ -85,11 +89,11 @@ nav div {
 #more {
   background-color: #d4af37;
   color: #121212;
-  margin: 10px 0 0 0;
+  margin: 15px 0 0 0;
   border: none;
   padding: 10px 20px;
-  border-radius: 15px;
-  font-size: 25px;
+  border-radius: 10px;
+  font-size: 24px;
   font-weight: 500;
 }
 
@@ -191,9 +195,13 @@ hr {
 footer {
   background-color: #303030;
   color: #d4af37;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
   padding: 20px 0 0 0;
+  backdrop-filter: blur(10px);
+  border-top: 2px solid #d4af37;
+  border-left: 2px solid #d4af37;
+  border-right: 2px solid #d4af37;
 }
 
 footer p {
@@ -230,7 +238,6 @@ footer p {
   background-color: #303030;
   padding: 20px;
   border-radius: 15px;
-  margin-bottom: -70px;
 }
 
 .carousel-item {
@@ -261,11 +268,6 @@ p .hadit-span,
   color: #bbbbbb;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-  transform: translateY(40px);
-}
-
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
@@ -274,7 +276,7 @@ p .hadit-span,
 }
 
 /* Mobile Media Query */
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   #pre-loader {
     background-size: 15%;
   }
@@ -284,4 +286,22 @@ p .hadit-span,
   .carousel-item p {
     font-size: 1.5rem;
   }
+  #more {
+    font-size: 20px;
+  }
+  nav{
+    border-left: none;
+    border-right: none;
+  }
+  footer{
+    border-left: none;
+    border-right: none;
+  }
+}
+
+
+.carousel img {
+    height: 400px; /* Adjust height */
+    object-fit: cover;
+    border-radius: 10px;
 }
