@@ -76,7 +76,7 @@ nav {
   background: #303030;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
-  flex: 0 0 11vh;
+  height: 100px;
   border-bottom: 2px solid #d4af37;
   border-left: 2px solid #d4af37;
   border-right: 2px solid #d4af37;
@@ -109,7 +109,7 @@ nav div {
   background: #121212
     url(https://cdn.pixabay.com/animation/2022/07/29/03/42/03-42-15-221_512.gif)
     no-repeat center center;
-  background-size: 6%;
+  background-size: 4%;
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -128,7 +128,7 @@ header h1 {
 
 header p {
   color: #bbbbbb;
-  margin: 0 10px 15px 10px !important;
+  margin: 0 10px 0 10px !important;
 }
 
 main {
@@ -149,7 +149,6 @@ main section div {
 }
 
 .card {
-  cursor: pointer;
   border-radius: 15px !important;
   background-color: #303030 !important;
   transition: 0.4s all ease;
@@ -260,6 +259,25 @@ footer p {
 
 p .douae-span {
   color: #bbbbbb;
+}
+
+.fa-star {
+  color: #bbbbbb;
+}
+
+.checked {
+  color: #d4af37;
+}
+
+.rating-card {
+  background-color: #303030;
+  border-radius: 15px;
+  transition: 0.4s all ease;
+}
+
+.rating-card:hover {
+  background-color: #3b3b3b !important;
+  transition: 0.4s all ease;
 }
 
 /* Tablet Media Query */

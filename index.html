@@ -14,7 +14,6 @@
     <meta property="og:locale" content="ar_AR" />
     <!-- Required links -->
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="font-awesome/css/all.css" />
     <!-- Website title -->
@@ -42,13 +41,6 @@
       <p class="text-center fs-3 fs-md-2 fs-lg-3">
         الشامل لأهم ما تحتاجه كمسلم
       </p>
-      <a href="https://github.com/med6ba/noor-al-houda" target="_blank">
-        <button class="btn btn-primary" id="more">
-          عرض المستودع
-          <br>
-          <i class="fa-brands fa-github-square fa-2x"></i>
-        </button>
-      </a>
     </header>
     <!-- horizontal line -->
     <hr class="container" id="hr" />
@@ -173,7 +165,7 @@
               <div
                 class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
               >
-                <h5 class="card-title">عــــن الموقع</h5>
+                <h5 class="card-title">عــــن الموقـــــع</h5>
                 <i class="fa-solid fa-circle-info fa-2x"></i>
               </div>
             </a>
@@ -183,7 +175,7 @@
               <div
                 class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
               >
-                <h5 class="card-title">مـــــن نحـــــــن</h5>
+                <h5 class="card-title">عــــــــــــــن المطـــــــور</h5>
                 <i class="fa-solid fa-circle-question fa-2x"></i>
               </div>
             </a>
@@ -193,7 +185,7 @@
               <div
                 class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
               >
-                <h5 class="card-title">اتـــصــــــل بـــنا</h5>
+                <h5 class="card-title">اتـــصــــــل بـــــــــــــنا</h5>
                 <i class="fa-solid fa-user fa-2x"></i>
               </div>
             </a>
@@ -354,12 +346,18 @@
             </div>
           </article>
           <article class="col">
-            <div
-              class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+            <a
+              href="https://github.com/med6ba/noor-al-houda"
+              target="_blank"
+              class="text-decoration-none"
             >
-              <h5 class="card-title">الدعــم الفني</h5>
-              <i class="fa-solid fa-headset fa-2x"></i>
-            </div>
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">مفتوح المصدر</h5>
+                <i class="fa-brands fa-github fa-2x"></i>
+              </div>
+            </a>
           </article>
         </div>
       </section>
@@ -373,45 +371,94 @@
           آراء المستخدمين
         </h1>
         <br />
-        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <!-- Image 1 -->
-            <div class="carousel-item active"></div>
-            <!-- Image 2 -->
-            <div class="carousel-item"></div>
-            <!-- Image 3 -->
-            <div class="carousel-item"></div>
+        <div class="row">
+          <!-- Column 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="rating-card">
+              <h2 class="text-center">رشيد</h2>
+              <p>موقع مفيد جدا، جزاكم الله خيرا</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
           </div>
-          <!-- Carousel Controls -->
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#imageCarousel"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon"></span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#imageCarousel"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon"></span>
-          </button>
+          <!-- Column 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="rating-card">
+              <h2 class="text-center">أحمد</h2>
+              <p>موقع ممتاز، جزاكم الله خيرا</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <!-- Column 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="rating-card">
+              <h2 class="text-center">محمد</h2>
+              <p>موقع رائع، جزاكم الله خيرا</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="rating-card">
+              <h2 class="text-center">سعيد</h2>
+              <p>موقع جيد جدا، جزاكم الله خيرا</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <!-- Column 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="rating-card">
+              <h2 class="text-center">فاطمة</h2>
+              <p>موقع مفيد، جزاكم الله خيرا</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
+          <!-- Column 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="rating-card">
+              <h2 class="text-center">خديجة</h2>
+              <p>موقع ممتاز جدا، جزاكم الله خيرا</p>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+            </div>
+          </div>
         </div>
       </section>
     </main>
     <br />
     <!-- Footer -->
-    <footer class="container text-center sticky-bottom">
+    <footer class="container text-center">
       <div class="container">
         <p>جميع الحقوق محفوظة &copy; 2025</p>
       </div>
     </footer>
     <!-- Required scripts -->
     <script src="js/script.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
+
+<!--  -->
