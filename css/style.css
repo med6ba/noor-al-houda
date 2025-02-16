@@ -189,6 +189,7 @@ hr {
 footer {
   background-color: #303030;
   color: #d4af37;
+  height: 70px;
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   padding: 20px 0 0 0;
@@ -325,6 +326,7 @@ p .douae-span {
   footer {
     border-left: none;
     border-right: none;
+    height: ;
   }
   footer p{
     font-size: 1rem;
