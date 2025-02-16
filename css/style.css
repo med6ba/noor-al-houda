@@ -57,7 +57,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #d4af37;
-  border-radius: 30px ;
+  border-radius: 30px;
 }
 
 html,
@@ -258,13 +258,7 @@ footer p {
   transform: translate(-50%, -50%);
 }
 
-p .quran-span {
-  color: #bbbbbb;
-  font-family: "uthmanic-warsh";
-}
-
-p .hadit-span,
-.douae-span {
+p .douae-span {
   color: #bbbbbb;
 }
 
@@ -289,19 +283,12 @@ p .hadit-span,
   #more {
     font-size: 20px;
   }
-  nav{
+  nav {
     border-left: none;
     border-right: none;
   }
-  footer{
+  footer {
     border-left: none;
     border-right: none;
   }
-}
-
-
-.carousel img {
-    height: 400px; /* Adjust height */
-    object-fit: cover;
-    border-radius: 10px;
 }

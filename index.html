@@ -1,359 +1,417 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="website for reading the holy quran" />
+    <meta
+      name="keywords"
+      content="SEO, Quran, Islam, reading, holy quran, quran, quran karim, quran kareem, quran recitation, quran reading, quran mp3, quran download, quran search, القرآن الكريم, المصحف الشريف, تلاوة القرآن, سور القرآن, آيات القرآن, تفسير القرآن, تجويد القرآن, قراءة القرآن, حفظ القرآن, تدبر القرآن, إعجاز القرآن, علوم القرآن, فضائل القرآن, أحكام التلاوة, ختم القرآن, معاني القرآن, ترتيل القرآن, تحفيظ القرآن, قصص القرآن, تنزيل القرآن, الرقية الشرعية, تفسير الجلالين, السيرة النبوية, صحيح البخاري"
+    />
+    <meta name="author" content="Medba" />
+    <meta property="og:locale" content="ar_AR" />
+    <!-- Required links -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="font-awesome/css/all.css" />
+    <!-- Website title -->
+    <title>نور الهدى | الرئيسية</title>
+    <!-- Website FavIcon -->
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+  </head>
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="website for reading the holy quran" />
-  <meta name="keywords"
-    content="SEO, Quran, Islam, reading, holy quran, quran, quran karim, quran kareem, quran recitation, quran reading, quran mp3, quran download, quran search, القرآن الكريم, المصحف الشريف, تلاوة القرآن, سور القرآن, آيات القرآن, تفسير القرآن, تجويد القرآن, قراءة القرآن, حفظ القرآن, تدبر القرآن, إعجاز القرآن, علوم القرآن, فضائل القرآن, أحكام التلاوة, ختم القرآن, معاني القرآن, ترتيل القرآن, تحفيظ القرآن, قصص القرآن, تنزيل القرآن, الرقية الشرعية, تفسير الجلالين, السيرة النبوية, صحيح البخاري" />
-  <meta name="author" content="Medba" />
-  <meta property="og:locale" content="ar_AR" />
-  <!-- Required links -->
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.css" />
-  <link rel="stylesheet" href="font-awesome/css/all.css" />
-  <!-- Website title -->
-  <title>نور الهدى | الرئيسية</title>
-  <!-- Website FavIcon -->
-  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
-</head>
-
-<body>
-  <!-- Page loader -->
-  <div id="pre-loader"></div>
-  <!-- Back to TOP -->
-  <div id="progress">
-    <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
-  </div>
-  <!-- NavBar -->
-  <nav class="navbar navbar-expand-lg container shadow sticky-top">
-    <a href="index.html" class="navbar-brand mx-auto">
-      <img src="./assets/logo.png" alt="logo noor al houda" height="60" />
-    </a>
-  </nav>
-  <!-- Header -->
-  <header class="container text-center">
-    <h1 class="fs-1 fs-md-2 fs-lg-3">
-      مرحبا بك في موقع نور الهدى
-    </h1>
-    <p class="text-center fs-3 fs-md-2 fs-lg-3">الشامل لأهم ما تحتاجه ك      مسلم</p>
-    <a href="#">
-      <button class="btn btn-primary" id="more">
-        معرفة المزيد <i class="fa-solid fa-arrow-up-right-from-square"></i>
-      </button>
-    </a>
-  </header>
-  <!-- horizontal line -->
-  <hr class="container" id="hr" />
-  <!-- Main -->
-  <main class="container text-center" id="main">
-    <section class="container my-4">
-      <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-        تصفح الأقسام
-      </h1>
-      <br>
-      <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-4">
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">القرآن الكريم</h5>
-              <i class="fa-solid fa-book-quran fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">حصن المسلم</h5>
-              <i class="fa-solid fa-user-shield fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">أذكـــار الصباح</h5>
-              <i class="fa-solid fa-circle fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">أذكـــار المساء</h5>
-              <i class="fa-solid fa-moon fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="https://www.youtube.com/playlist?list=PLWzzF688g_njHA-QzbZUcxNGneHOYpVbQ" target="_blank" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">المصحف المرتل</h5>
-              <i class="fa-brands fa-youtube fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA" target="_blank" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">التفسير الميسر</h5>
-              <i class="fa-brands fa-youtube fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="https://youtu.be/XeBHAnqo30Y?si=A_nsJurDmIr2N7XA" target="_blank" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">الرقية الشرعية</h5>
-              <i class="fa-brands fa-youtube fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="https://www.youtube.com/playlist?list=PLbDRORmj0gydNzexxDf-HufsQLbT3GIJl" target="_blank" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">قصص الأنبياء</h5>
-              <i class="fa-brands fa-youtube fa-2x"></i>
-            </div>
-          </a>
-        </article>
-      </div>
-      <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-4">
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">الشروط والأحكام</h5>
-              <i class="fa-solid fa-lock fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">عــــن الموقع</h5>
-              <i class="fa-solid fa-circle-info fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">مـــــن نحـــــــن</h5>
-              <i class="fa-solid fa-circle-question fa-2x"></i>
-            </div>
-          </a>
-        </article>
-        <article class="col">
-          <a href="#" class="text-decoration-none">
-            <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-              <h5 class="card-title">اتـــصــــــل بـــنا</h5>
-              <i class="fa-solid fa-user fa-2x"></i>
-            </div>
-          </a>
-        </article>
-      </div>
-    </section>
-  </main>
-  <!-- horizontal line -->
-  <hr class="container" />
-  <!-- Quots section -->
-  <main class="container text-center">
-    <section class="container my-4">
-      <h1 class="text-center fs-1 fs-md-2 fs-lg-3 mb-4" id="section-header">
-        أدعية مأثورة
-      </h1>
-      <div id="textCarousel" class="carousel slide container mb-2" data-bs-ride="carousel">
-        <div class="carousel-inner text-center">
-          <!-- Slide 1 -->
-          <div class="carousel-item active">
-            <p class="text-center">
-              دعاء طلب حسن الخاتمة
-              <br>
-              <br>
-              <span class="douae-span">
-                اللَّهُمَّ اجْعَلْ خَيْرَ أَعْمَالِي خَوَاتِيمَهَا، وَخَيْرَ
-                أَيَّامِي يَوْمَ أَلْقَاكَ، اللَّهُمَّ اجْعَلْنِي مِمَّنْ
-                يُقَالُ لَهُمْ يَوْمَ القِيَامَةِ:
-                "ادْخُلُوا الجَنَّةَ بِمَا كُنتُمْ تَعْمَلُونَ"، وَلَا
-                تَجْعَلْنِي مِمَّنْ ضَلَّ سَعْيُهُمْ فِي الحَيَاةِ الدُّنْيَا
-                وَهُمْ يَحْسَبُونَ أَنَّهُمْ يُحْسِنُونَ صُنْعًا، اللَّهُمَّ
-                إِنِّي أَسْأَلُكَ رِضَاكَ وَالجَنَّةَ، وَأَعُوذُ بِكَ مِنْ
-                سَخَطِكَ وَالنَّارِ.
-              </span>
-            </p>
-          </div>
-          <!-- Slide 2 -->
-          <div class="carousel-item">
-            <p class="text-center">
-              دعاء تفريج الهموم والكروب
-              <br>
-              <br>
-              <span class="douae-span">
-                اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ،
-                نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ
-                قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ
-                نَفْسَكَ، أَوْ أَنزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ
-                أَحَدًا مِنْ خَلْقِكَ، أَوْ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ
-                الْغَيْبِ عِندَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي،
-                وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي.
-              </span>
-            </p>
-          </div>
-          <!-- Slide 3 -->
-          <div class="carousel-item">
-            <p class="text-center">
-              دعاء الحفظ من الشرور
-              <br>
-              <br>
-              <span class="douae-span">
-                اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي،
-                وَعَنْ يَمِينِي وَعَنْ شِمَالِي، وَمِنْ فَوْقِي، وَأَعُوذُ
-                بِعِظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي، اللَّهُمَّ اجْعَلْ
-                لِي مِنْ كُلِّ ضِيقٍ مَخْرَجًا، وَمِنْ كُلِّ هَمٍّ فَرَجًا،
-                وَمِنْ كُلِّ بَلَاءٍ عَافِيَةً، وَاحْفَظْنِي بِحِفْظِكَ
-                الَّذِي لَا يُرَامُ، وَاكْلَأْنِي بِعَيْنِكَ الَّتِي لَا
-                تَنَامُ.
-              </span>
-            </p>
-          </div>
-          <!-- Slide 4 -->
-          <div class="carousel-item">
-            <p class="text-center">
-              دعاء طلب العون والتوفيق
-              <br>
-              <br>
-              <span class="douae-span">
-                اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنَ الْخَيْرِ كُلِّهِ، عَاجِلِهِ
-                وَآجِلِهِ، مَا عَلِمْتُ مِنْهُ وَمَا لَمْ أَعْلَمْ، وَأَعُوذُ
-                بِكَ مِنَ الشَّرِّ كُلِّهِ، عَاجِلِهِ وَآجِلِهِ، مَا عَلِمْتُ
-                مِنْهُ وَمَا لَمْ أَعْلَمْ، اللَّهُمَّ إِنِّي أَسْأَلُكَ
-                التَّوْفِيقَ فِي أُمُورِي، وَالْبَرَكَةَ فِي رِزْقِي،
-                وَالرَّاحَةَ فِي قَلْبِي، وَالسَّعَادَةَ فِي حَيَاتِي،
-                وَالثَّبَاتَ عَلَى طَاعَتِكَ حَتَّى أَلْقَاكَ وَأَنْتَ رَاضٍ
-                عَنِّي.
-              </span>
-            </p>
-          </div>
-          <!-- Slide 5 -->
-          <div class="carousel-item">
-            <p class="text-center">
-              سيد الاستغفار
-              <br>
-              <br>
-              <span class="douae-span">
-                اللَّهُمَّ أنتَ ربِّي لا إلَهَ إلَّا أنتَ خلَقتَني وأَنا
-                عبدُكَ وأَنا على عَهْدِكَ ووعدِكَ ما استطَعتُ أعوذُ بِكَ من
-                شرِّ ما صنعتُ أبوءُ لَكَ بنعمتِكَ عليَّ وأبوءُ بذَنبي فاغفِر
-                لي فإنَّهُ لا يغفرُ الذُّنوبَ إلَّا أنتَ.
-              </span>
-            </p>
-          </div>
-        </div>
-        <!-- Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#textCarousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#textCarousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
-      </div>
-    </section>
-  </main>
-  <!-- horizontal line -->
-  <hr class="container" />
-  <!-- Q&A section -->
-  <main class="container text-center">
-    <section class="container my-4">
-      <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-        مميزات الموقع
-      </h1>
-      <br>
-      <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-4">
-        <article class="col">
-          <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-            <h5 class="card-title">سهولة التصفح</h5>
-            <i class="fa-solid fa-compass fa-2x"></i>
-          </div>
-        </article>
-        <article class="col">
-          <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-            <h5 class="card-title">تحديث المحتوى</h5>
-            <i class="fa-solid fa-pen-to-square fa-2x"></i>
-          </div>
-        </article>
-        <article class="col">
-          <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-            <h5 class="card-title">مصداقية الموارد</h5>
-            <i class="fa-solid fa-circle-check fa-2x"></i>
-          </div>
-        </article>
-        <article class="col">
-          <div class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center">
-            <h5 class="card-title">الدعــم الفني</h5>
-            <i class="fa-solid fa-headset  fa-2x"></i>
-          </div>
-        </article>
-
-      </div>
-  </main>
-  <!-- horizontal line -->
-  <hr class="container" />
-  <!-- Users comments -->
-  <main class="container text-center">
-    <section class="container my-4">
-      <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-        آراء المستخدمين
-      </h1>
-      <br>
-      <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-        <!-- Image 1 -->
-        <div class="carousel-item active">
-            
-        </div>
-        <!-- Image 2 -->
-        <div class="carousel-item">
-
-        </div>
-        <!-- Image 3 -->
-        <div class="carousel-item">
-            
-        </div>
+  <body>
+    <!-- Page loader -->
+    <div id="pre-loader"></div>
+    <!-- Back to TOP -->
+    <div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
     </div>
-    <!-- Carousel Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>
-    </section>
-  </main>
-
-  <!-- horizontal line -->
-  <hr class="container" />
-  <!-- Users comments -->
-  <main class="container text-center">
-    <section class="container my-4">
-      
-    </section>
-  </main>
-  <!-- Footer -->
-  <footer class="container text-center sticky-bottom">
-    <div class="container">
-      <p>جميع الحقوق محفوظة &copy; 2025</p>
-    </div>
-  </footer>
-  <!-- Required scripts -->
-  <script src="js/script.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <!-- <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="med6ba" data-color="#FFDD00" data-emoji=""  data-font="Poppins" data-text="Support" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script> -->
-</body>
-
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg container shadow sticky-top">
+      <a href="index.html" class="navbar-brand mx-auto">
+        <img src="./assets/logo.png" alt="logo noor al houda" height="60" />
+      </a>
+    </nav>
+    <!-- Header -->
+    <header class="container text-center">
+      <h1 class="fs-1 fs-md-2 fs-lg-3">مرحبا بك في موقع نور الهدى</h1>
+      <p class="text-center fs-3 fs-md-2 fs-lg-3">
+        الشامل لأهم ما تحتاجه كمسلم
+      </p>
+      <a href="https://github.com/med6ba/noor-al-houda" target="_blank">
+        <button class="btn btn-primary" id="more">
+          عرض المستودع
+          <br>
+          <i class="fa-brands fa-github-square fa-2x"></i>
+        </button>
+      </a>
+    </header>
+    <!-- horizontal line -->
+    <hr class="container" id="hr" />
+    <!-- Main -->
+    <main class="container text-center" id="main">
+      <section class="container my-4">
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          تصفح الأقسام
+        </h1>
+        <br />
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-4">
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">القرآن الكريم</h5>
+                <i class="fa-solid fa-book-quran fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">حصن المسلم</h5>
+                <i class="fa-solid fa-user-shield fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">أذكـــار الصباح</h5>
+                <i class="fa-solid fa-circle fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">أذكـــار المساء</h5>
+                <i class="fa-solid fa-moon fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a
+              href="https://www.youtube.com/playlist?list=PLWzzF688g_njHA-QzbZUcxNGneHOYpVbQ"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">المصحف المرتل</h5>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a
+              href="https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">التفسير الميسر</h5>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a
+              href="https://youtu.be/XeBHAnqo30Y?si=A_nsJurDmIr2N7XA"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">الرقية الشرعية</h5>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a
+              href="https://www.youtube.com/playlist?list=PLbDRORmj0gydNzexxDf-HufsQLbT3GIJl"
+              target="_blank"
+              class="text-decoration-none"
+            >
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">قصص الأنبياء</h5>
+                <i class="fa-brands fa-youtube fa-2x"></i>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-4">
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">الشروط والأحكام</h5>
+                <i class="fa-solid fa-lock fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">عــــن الموقع</h5>
+                <i class="fa-solid fa-circle-info fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">مـــــن نحـــــــن</h5>
+                <i class="fa-solid fa-circle-question fa-2x"></i>
+              </div>
+            </a>
+          </article>
+          <article class="col">
+            <a href="#" class="text-decoration-none">
+              <div
+                class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              >
+                <h5 class="card-title">اتـــصــــــل بـــنا</h5>
+                <i class="fa-solid fa-user fa-2x"></i>
+              </div>
+            </a>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- horizontal line -->
+    <hr class="container" />
+    <!-- Quots section -->
+    <main class="container text-center">
+      <section class="container my-4">
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3 mb-4" id="section-header">
+          أدعية مأثورة
+        </h1>
+        <div
+          id="textCarousel"
+          class="carousel slide container mb-2"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner text-center">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <p class="text-center">
+                دعاء طلب حسن الخاتمة
+                <br />
+                <br />
+                <span class="douae-span">
+                  اللَّهُمَّ اجْعَلْ خَيْرَ أَعْمَالِي خَوَاتِيمَهَا، وَخَيْرَ
+                  أَيَّامِي يَوْمَ أَلْقَاكَ، اللَّهُمَّ اجْعَلْنِي مِمَّنْ
+                  يُقَالُ لَهُمْ يَوْمَ القِيَامَةِ: "ادْخُلُوا الجَنَّةَ بِمَا
+                  كُنتُمْ تَعْمَلُونَ"، وَلَا تَجْعَلْنِي مِمَّنْ ضَلَّ
+                  سَعْيُهُمْ فِي الحَيَاةِ الدُّنْيَا وَهُمْ يَحْسَبُونَ
+                  أَنَّهُمْ يُحْسِنُونَ صُنْعًا، اللَّهُمَّ إِنِّي أَسْأَلُكَ
+                  رِضَاكَ وَالجَنَّةَ، وَأَعُوذُ بِكَ مِنْ سَخَطِكَ وَالنَّارِ.
+                </span>
+              </p>
+            </div>
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+              <p class="text-center">
+                دعاء تفريج الهموم والكروب
+                <br />
+                <br />
+                <span class="douae-span">
+                  اللَّهُمَّ إِنِّي عَبْدُكَ، ابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ،
+                  نَاصِيَتِي بِيَدِكَ، مَاضٍ فِيَّ حُكْمُكَ، عَدْلٌ فِيَّ
+                  قَضَاؤُكَ، أَسْأَلُكَ بِكُلِّ اسْمٍ هُوَ لَكَ، سَمَّيْتَ بِهِ
+                  نَفْسَكَ، أَوْ أَنزَلْتَهُ فِي كِتَابِكَ، أَوْ عَلَّمْتَهُ
+                  أَحَدًا مِنْ خَلْقِكَ، أَوْ اسْتَأْثَرْتَ بِهِ فِي عِلْمِ
+                  الْغَيْبِ عِندَكَ، أَنْ تَجْعَلَ الْقُرْآنَ رَبِيعَ قَلْبِي،
+                  وَنُورَ صَدْرِي، وَجَلَاءَ حُزْنِي، وَذَهَابَ هَمِّي.
+                </span>
+              </p>
+            </div>
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+              <p class="text-center">
+                دعاء الحفظ من الشرور
+                <br />
+                <br />
+                <span class="douae-span">
+                  اللَّهُمَّ احْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي،
+                  وَعَنْ يَمِينِي وَعَنْ شِمَالِي، وَمِنْ فَوْقِي، وَأَعُوذُ
+                  بِعِظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي، اللَّهُمَّ اجْعَلْ
+                  لِي مِنْ كُلِّ ضِيقٍ مَخْرَجًا، وَمِنْ كُلِّ هَمٍّ فَرَجًا،
+                  وَمِنْ كُلِّ بَلَاءٍ عَافِيَةً، وَاحْفَظْنِي بِحِفْظِكَ
+                  الَّذِي لَا يُرَامُ، وَاكْلَأْنِي بِعَيْنِكَ الَّتِي لَا
+                  تَنَامُ.
+                </span>
+              </p>
+            </div>
+            <!-- Slide 4 -->
+            <div class="carousel-item">
+              <p class="text-center">
+                دعاء طلب العون والتوفيق
+                <br />
+                <br />
+                <span class="douae-span">
+                  اللَّهُمَّ إِنِّي أَسْأَلُكَ مِنَ الْخَيْرِ كُلِّهِ، عَاجِلِهِ
+                  وَآجِلِهِ، مَا عَلِمْتُ مِنْهُ وَمَا لَمْ أَعْلَمْ، وَأَعُوذُ
+                  بِكَ مِنَ الشَّرِّ كُلِّهِ، عَاجِلِهِ وَآجِلِهِ، مَا عَلِمْتُ
+                  مِنْهُ وَمَا لَمْ أَعْلَمْ، اللَّهُمَّ إِنِّي أَسْأَلُكَ
+                  التَّوْفِيقَ فِي أُمُورِي، وَالْبَرَكَةَ فِي رِزْقِي،
+                  وَالرَّاحَةَ فِي قَلْبِي، وَالسَّعَادَةَ فِي حَيَاتِي،
+                  وَالثَّبَاتَ عَلَى طَاعَتِكَ حَتَّى أَلْقَاكَ وَأَنْتَ رَاضٍ
+                  عَنِّي.
+                </span>
+              </p>
+            </div>
+            <!-- Slide 5 -->
+            <div class="carousel-item">
+              <p class="text-center">
+                سيد الاستغفار
+                <br />
+                <br />
+                <span class="douae-span">
+                  اللَّهُمَّ أنتَ ربِّي لا إلَهَ إلَّا أنتَ خلَقتَني وأَنا
+                  عبدُكَ وأَنا على عَهْدِكَ ووعدِكَ ما استطَعتُ أعوذُ بِكَ من
+                  شرِّ ما صنعتُ أبوءُ لَكَ بنعمتِكَ عليَّ وأبوءُ بذَنبي فاغفِر
+                  لي فإنَّهُ لا يغفرُ الذُّنوبَ إلَّا أنتَ.
+                </span>
+              </p>
+            </div>
+          </div>
+          <!-- Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#textCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#textCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- horizontal line -->
+    <hr class="container" />
+    <!-- Q&A section -->
+    <main class="container text-center">
+      <section class="container my-4">
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          مميزات الموقع
+        </h1>
+        <br />
+        <div class="row row-cols-md-4 row-cols-sm-2 row-cols-2 g-4">
+          <article class="col">
+            <div
+              class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title">سهولة التصفح</h5>
+              <i class="fa-solid fa-compass fa-2x"></i>
+            </div>
+          </article>
+          <article class="col">
+            <div
+              class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title">بدون إعلانات</h5>
+              <i class="fa-solid fa-ban fa-2x"></i>
+            </div>
+          </article>
+          <article class="col">
+            <div
+              class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title">مصداقية الموارد</h5>
+              <i class="fa-solid fa-circle-check fa-2x"></i>
+            </div>
+          </article>
+          <article class="col">
+            <div
+              class="card text-center shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+            >
+              <h5 class="card-title">الدعــم الفني</h5>
+              <i class="fa-solid fa-headset fa-2x"></i>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- horizontal line -->
+    <hr class="container" />
+    <!-- Users comments -->
+    <main class="container text-center">
+      <section class="container my-4">
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          آراء المستخدمين
+        </h1>
+        <br />
+        <div id="imageCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- Image 1 -->
+            <div class="carousel-item active"></div>
+            <!-- Image 2 -->
+            <div class="carousel-item"></div>
+            <!-- Image 3 -->
+            <div class="carousel-item"></div>
+          </div>
+          <!-- Carousel Controls -->
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#imageCarousel"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#imageCarousel"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon"></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <br />
+    <!-- Footer -->
+    <footer class="container text-center sticky-bottom">
+      <div class="container">
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+      </div>
+    </footer>
+    <!-- Required scripts -->
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
 </html>
