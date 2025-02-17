@@ -242,7 +242,7 @@ footer p {
 }
 
 .carousel-item p {
-  width: 68%;
+  width: 70%;
   margin: auto;
   color: #d4af37;
   font-size: 2rem;
@@ -333,10 +333,10 @@ p .douae-span {
   .card .card-title {
     font-weight: 500;
     color: #bbbbbb !important;
-    font-size: 0.9rem !important;
+    font-size: 1rem !important;
   }
   .col i {
-    font-size: 1.1rem !important;
+    font-size: 1rem !important;
   }
   #more {
     font-size: 15px !important;
