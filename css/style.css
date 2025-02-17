@@ -300,6 +300,17 @@ p .douae-span {
   .carousel-item {
     height: 500px;
   }
+  .card .card-title {
+    font-weight: 500;
+    color: #bbbbbb !important;
+    font-size: 1.2rem;
+  }
+  .col i{
+    font-size: 1.2rem;
+  }
+  #more{
+    font-size: 15px;
+  }
 }
 
 /* Mobile Media Query */
@@ -307,10 +318,10 @@ p .douae-span {
   #pre-loader {
     background-size: 15%;
   }
-  nav{
+  nav {
     height: 80px;
   }
-  nav a img{
+  nav a img {
     height: 40px;
   }
   .carousel-item {
@@ -318,6 +329,17 @@ p .douae-span {
   }
   .carousel-item p {
     font-size: 1.2rem;
+  }
+  .card .card-title {
+    font-weight: 500;
+    color: #bbbbbb !important;
+    font-size: 1.2rem;
+  }
+  .col i{
+    font-size: 1.2rem;
+  }
+  #more{
+    font-size: 12px;
   }
   nav {
     border-left: none;
@@ -327,7 +349,7 @@ p .douae-span {
     border-left: none;
     border-right: none;
   }
-  footer p{
+  footer p {
     font-size: 1rem;
   }
 }
