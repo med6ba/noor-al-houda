@@ -297,6 +297,7 @@ p .douae-span {
 
 .socials a i{
   color: #bbbbbb;
+  font-size: 35px !important;
   padding: 10px;
   transition: 0.4s all ease;
 }
@@ -357,7 +358,7 @@ p .douae-span {
     font-size: 15px !important;
   }
   .socials a i{
-    font-size: 20px !important;
+    font-size: 25px !important;
   }
   nav {
     border-left: none;
