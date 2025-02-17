@@ -315,7 +315,10 @@ p .douae-span {
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
-    height: 500px;
+    height: 450px;
+  }
+  .carousel-item p {
+    font-size: 1.2rem;
   }
   .card .card-title {
     font-weight: 500;
