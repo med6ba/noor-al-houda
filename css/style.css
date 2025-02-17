@@ -295,6 +295,18 @@ p .douae-span {
   font-size: 30px;
 }
 
+.socials a i{
+  color: #bbbbbb;
+  padding: 10px;
+  transition: 0.4s all ease;
+}
+
+.socials a i:hover{
+  color: #d4af37;
+  transform: scale(1.1);
+  transition: 0.4s all ease;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
@@ -310,6 +322,9 @@ p .douae-span {
   }
   #more {
     font-size: 15px !important;
+  }
+  .socials a i{
+    font-size: 30px !important;
   }
 }
 
@@ -340,6 +355,9 @@ p .douae-span {
   }
   #more {
     font-size: 15px !important;
+  }
+  .socials a i{
+    font-size: 20px !important;
   }
   nav {
     border-left: none;
