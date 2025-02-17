@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
-body{
+body {
   min-height: 100dvh;
 }
 
@@ -299,17 +299,17 @@ p .douae-span {
   font-size: 30px;
 }
 
-.socials a i{
+.socials a i {
   color: #bbbbbb;
   font-size: 35px !important;
   padding: 10px;
-  transition: 0.4s all ease;
+  transition: 0.1s all ease;
 }
 
-.socials a i:hover{
+.socials a i:hover {
   color: #d4af37;
   transform: scale(1.1);
-  transition: 0.4s all ease;
+  transition: 0.1s all ease;
 }
 
 /* Tablet Media Query */
@@ -328,7 +328,7 @@ p .douae-span {
   #more {
     font-size: 15px !important;
   }
-  .socials a i{
+  .socials a i {
     font-size: 30px !important;
   }
 }
@@ -361,7 +361,7 @@ p .douae-span {
   #more {
     font-size: 15px !important;
   }
-  .socials a i{
+  .socials a i {
     font-size: 25px !important;
   }
   nav {
