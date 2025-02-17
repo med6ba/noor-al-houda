@@ -26,3 +26,10 @@ let calcScrollValue = () => {
 
 window.onscroll = calcScrollValue;
 window.onload = calcScrollValue;
+
+function copyLink() {
+  navigator.clipboard
+    .writeText("https://med6ba.github.io/noor-al-houda")
+    .then(() => alert("تم نسخ الرابط!"))
+    .catch((err) => console.error("Error copying link: ", err));
+}
