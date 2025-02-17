@@ -60,10 +60,6 @@ body::-webkit-scrollbar-thumb {
   border-radius: 30px;
 }
 
-body{
-  min-height: 100dvh !important;
-}
-
 html,
 body {
   margin: 0;
