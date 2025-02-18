@@ -11,29 +11,29 @@ Color palette:
 /* الخط العثماني لرواية ورش */
 @font-face {
   font-family: "Uthmanic-Warsh";
-  src: url("../fonts/Uthmanic-Warsh.otf") format("truetype");
+  src: url("../assets/fonts/Uthmanic-Warsh.otf") format("truetype");
 }
 
 /* IBM arabic */
 @font-face {
   font-family: "IBM-R";
-  src: url("../fonts/IBM-Regular.ttf") format("truetype");
+  src: url("../assets/fonts/IBM-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "IBM-SB";
-  src: url("../fonts/IBM-SemiBold.ttf") format("truetype");
+  src: url("../assets/fonts/IBM-SemiBold.ttf") format("truetype");
 }
 
 /* Poppins */
 @font-face {
   font-family: "Poppins-M";
-  src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/Poppins-Medium.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Poppins-B";
-  src: url("../fonts/Poppins-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/Poppins-Bold.ttf") format("truetype");
 }
 
 /* Initializing page */

@@ -1,0 +1,5 @@
+bugs:
+	=> 40-nawayiya cards should be 1 per ligne in sm size
+	=> should changing carousel gestures
+	=> static paragraph cards shouldn't be hovered
+	=> should adding techs used in the about-website page (banners: html + css + bootstrap + js)
