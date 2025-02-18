@@ -2,20 +2,19 @@
 
 ## Supported Versions
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| 5.1.x   | :white_check_mark: |
-| 5.0.x   | :x:                |
-| 4.0.x   | :white_check_mark: |
-| < 4.0   | :x:                |
+| Version | Supported |
+| ------- | --------- |
+| 5.1.x   | ✅       |
+| 5.0.x   | ❌       |
+| 4.0.x   | ✅       |
+| < 4.0   | ❌       |
 
 ## Reporting a Vulnerability
 
-Use this section to tell people how to report a vulnerability.
+If you find a security issue, report it to **security@yourproject.com** with details on how to reproduce it.
 
-Tell them where to go, how often they can expect to get an update on a
-reported vulnerability, what to expect if the vulnerability is accepted or
-declined, etc.
+- **Acknowledgment**: Within **48 hours**  
+- **Assessment**: Within **5 business days**  
+- **Fix & Release**: If valid, we patch it ASAP and push an update.  
+
+We do **responsible disclosure**—you’ll get credit when the fix goes public.
