@@ -347,11 +347,11 @@ p .douae-span {
     font-size: 30px !important;
   }
   #pp-title{
-    font-size: 1rem;
+    font-size: 1.6rem;
   }
   
   #pp-content{
-    font-size: 0.6rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -398,10 +398,10 @@ p .douae-span {
     font-size: 1rem;
   }
   #pp-title{
-    font-size: 0.6rem;
+    font-size: 1.4rem;
   }
   
   #pp-content{
-    font-size: 0.2rem;
+    font-size: 1rem;
   }
 }
