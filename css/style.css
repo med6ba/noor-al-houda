@@ -225,12 +225,12 @@ footer p {
   display: block;
   height: calc(100% - 8px);
   width: calc(100% - 8px);
-  background-color: #121212;
+  background-color: #d4af37;
   border-radius: 50%;
   display: grid;
   place-items: center;
   font-size: 20px;
-  color: #d4af37;
+  color: #121212;
 }
 
 .carousel-inner {
