@@ -321,6 +321,7 @@ p .douae-span {
   color: #bbbbbb !important;
   padding: 0 20px;
   font-size: 1.4rem;
+  font-weight: 500 !important;
 }
 
 /* Tablet Media Query */
@@ -346,11 +347,11 @@ p .douae-span {
     font-size: 30px !important;
   }
   #pp-title{
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
   
   #pp-content{
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 }
 
@@ -397,10 +398,10 @@ p .douae-span {
     font-size: 1rem;
   }
   #pp-title{
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
   
   #pp-content{
-    font-size: 0.8rem;
+    font-size: 0.2rem;
   }
 }
