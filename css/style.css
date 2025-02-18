@@ -312,6 +312,18 @@ p .douae-span {
   transition: 0.1s all ease;
 }
 
+#pp-title{
+  color: #d4af37;
+  font-size: 1.8rem;
+}
+
+#pp-content{
+  color: #bbbbbb !important;
+  padding: 0 20px;
+  font-size: 1.4rem;
+  text-align: justify;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
