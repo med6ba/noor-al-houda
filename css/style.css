@@ -312,14 +312,9 @@ p .douae-span {
   transition: 0.1s all ease;
 }
 
-#pp-title {
-  color: #d4af37;
-  font-size: 1.8rem;
-}
-
 #pp-content {
   color: #bbbbbb !important;
-  padding: 0 20px;
+  padding: 0 20px 0 0;
   font-size: 1.4rem;
   font-weight: 500 !important;
 }
@@ -346,10 +341,6 @@ p .douae-span {
   .socials a i {
     font-size: 30px !important;
   }
-  #pp-title {
-    font-size: 1.6rem;
-  }
-
   #pp-content {
     font-size: 1.2rem;
   }
@@ -397,10 +388,6 @@ p .douae-span {
   footer p {
     font-size: 1rem;
   }
-  #pp-title {
-    font-size: 1.4rem;
-  }
-
   #pp-content {
     font-size: 1rem;
   }
