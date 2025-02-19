@@ -320,6 +320,10 @@ p .douae-span {
   font-weight: 500 !important;
 }
 
+#not-hover:hover{
+  background-color: #303030 !important;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
