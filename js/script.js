@@ -33,3 +33,28 @@ function copyLink() {
     .then(() => alert("تم نسخ الرابط!"))
     .catch((err) => console.error("Error copying link: ", err));
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+  var carouselElement = document.querySelector("#textCarousel");
+  var carousel = new bootstrap.Carousel(carouselElement);
+
+  var startX = 0;
+
+  carouselElement.addEventListener("touchstart", function (e) {
+    startX = e.touches[0].clientX;
+  });
+
+  carouselElement.addEventListener("touchend", function (e) {
+    let endX = e.changedTouches[0].clientX;
+    let diffX = startX - endX;
+
+    if (Math.abs(diffX) > 50) {
+      // Adjust swipe sensitivity
+      if (diffX > 0) {
+        carousel.prev(); // Reverse swipe for RTL
+      } else {
+        carousel.next();
+      }
+    }
+  });
+});
