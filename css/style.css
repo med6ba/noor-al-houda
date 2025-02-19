@@ -324,6 +324,11 @@ p .douae-span {
   background-color: #303030 !important;
 }
 
+#techs i{
+  padding: 0 5px;
+  font-size: 1.8rem;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
