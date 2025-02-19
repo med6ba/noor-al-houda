@@ -132,7 +132,7 @@
               </div>
             </a>
           </article>
-          <article class="col">
+          <!-- <article class="col">
             <a
               href="assets/subpages/privacy-policy.html"
               target="_blank"
@@ -187,7 +187,7 @@
                 <i class="fa-solid fa-envelope fa-2x"></i>
               </div>
             </a>
-          </article>
+          </article> -->
         </div>
       </section>
     </main>
@@ -461,30 +461,83 @@
     <br />
     <!-- horizontal line -->
     <hr class="container" />
+    <!-- Contact us -->
+    <main class="container text-left my-4" id="main">
+      <section class="container my-4">
+        <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
+          <i class="fa-solid fa-envelope"></i> اتـــصل بــــــنا
+        </h1>
+        <br />
+        <div class="row">
+          <article class="col">
+            <div
+              class="card text-right shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
+              id="not-hover"
+            >
+              <form action="https://formspree.io/f/mvgzddko" method="POST">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="mb-1">
+                      <label for="name" class="form-label">الاسم</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        placeholder="أدخل اسمك"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label for="email" class="form-label"
+                        >البريد الإلكتروني</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        placeholder="أدخل بريدك الإلكتروني"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div>
+                      <label for="message" class="form-label">الرسالة</label>
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="6"
+                        placeholder="اكتب رسالتك هنا"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div>
+                      <button id="more-2" type="submit" class="btn btn-primary">
+                        إرسال
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- horizontal line -->
+    <hr class="container" />
     <!-- Users comments -->
     <main class="container text-center">
       <section class="container my-4">
         <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
           شارك لتؤجر
         </h1>
-        <div class="socials">
-          <!-- Whatsapp -->
-          <a
-            href="https://api.whatsapp.com/send?text=اطلع%20على%20موقع%20نور%20الهدى!%20https://med6ba.github.io/noor-al-houda"
-            target="_blank"
-            ><i class="fa-brands fa-whatsapp fa-2x"></i>
-          </a>
-          <!-- Facebook -->
-          <a
-            href="https://www.facebook.com/sharer/sharer.php?u=https://med6ba.github.io/noor-al-houda"
-            target="_blank"
-            ><i class="fa-brands fa-facebook fa-2x"></i
-          ></a>
-          <!-- Copy link -->
-          <a href="" onclick="copyLink(); return false;" target="_blank"
-            ><i class="fa-solid fa-link fa-2x"></i
-          ></a>
-        </div>
+        
       </section>
     </main>
     <!-- Footer -->

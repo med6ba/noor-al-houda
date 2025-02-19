@@ -329,6 +329,30 @@ p .douae-span {
   font-size: 1.8rem;
 }
 
+input{
+  padding: 10px !important;
+  margin: 0 0 0 80px !important;
+  
+}
+
+label{
+  color: #d4af37;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#more-2 {
+  background-color: #d4af37;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  width: 100%;
+  transition: 0.3s all ease;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {

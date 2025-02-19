@@ -58,3 +58,36 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document
+  .getElementById("contact-form")
+  .addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Collect form data
+    const formData = {
+      name: document.getElementById("name").value,
+      age: document.getElementById("age").value,
+      email: document.getElementById("email").value,
+      message: document.getElementById("message").value,
+    };
+
+    // Send form data as JSON via Fetch API
+    fetch("https://your-backend-url.com/api/contact", {
+      // Replace with your actual backend URL
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        console.log("Success:", data);
+        document.getElementById("success-message").style.display = "block";
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+        document.getElementById("error-message").style.display = "block";
+      });
+  });
