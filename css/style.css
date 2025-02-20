@@ -8,6 +8,7 @@ Color palette:
 */
 
 /* Importing fonts */
+
 /* الخط العثماني لرواية ورش */
 @font-face {
   font-family: "Uthmanic-Warsh";
@@ -23,17 +24,6 @@ Color palette:
 @font-face {
   font-family: "IBM-SB";
   src: url("../assets/fonts/IBM-SemiBold.ttf") format("truetype");
-}
-
-/* Poppins */
-@font-face {
-  font-family: "Poppins-M";
-  src: url("../assets/fonts/Poppins-Medium.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "Poppins-B";
-  src: url("../assets/fonts/Poppins-Bold.ttf") format("truetype");
 }
 
 /* Initializing page */
