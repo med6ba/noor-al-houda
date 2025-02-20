@@ -264,6 +264,11 @@ p .douae-span {
 
 .fa-star {
   color: #bbbbbb;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .checked {
