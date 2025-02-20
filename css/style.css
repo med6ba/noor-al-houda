@@ -273,11 +273,12 @@ p .douae-span {
 .rating-card {
   background-color: #303030;
   border-radius: 15px;
+  padding: 30px !important;
   transition: 0.4s all ease;
 }
 
 .rating-card p {
-  padding: 0 20px;
+  padding: 0 10px;
   color: #bbbbbb;
   font-size: 20px;
   font-weight: 500;
