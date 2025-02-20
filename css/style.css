@@ -135,7 +135,7 @@ header h1 {
 
 header p {
   color: #bbbbbb;
-  margin: 0 10px 0 10px !important;
+  margin: 0 10px 0 10px !important;font-size: 1.8rem !important;
 }
 
 main {
@@ -397,12 +397,18 @@ label{
   #pp-content {
     font-size: 1.2rem;
   }
+  header p{
+    font-size: 1.4rem !important;
+  }
 }
 
 /* Mobile Media Query */
 @media (max-width: 576px) {
   #pre-loader {
     background-size: 15%;
+  }
+  header p{
+    font-size: 1.2rem !important;
   }
   nav {
     height: 80px;
