@@ -135,7 +135,8 @@ header h1 {
 
 header p {
   color: #bbbbbb;
-  margin: 0 10px 0 10px !important;font-size: 1.8rem !important;
+  margin: 0 10px 0 10px !important;
+  font-size: 1.8rem !important;
 }
 
 main {
@@ -264,11 +265,10 @@ p .douae-span {
 
 .fa-star {
   color: #bbbbbb;
-  
+
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 .checked {
@@ -335,23 +335,24 @@ p .douae-span {
   font-size: 1.8rem;
 }
 
-input{
+input {
   padding: 10px !important;
   margin: 0 0 0 80px !important;
   background-color: #bbbbbb !important;
   border: none !important;
 }
 
-textarea{
+textarea {
   background-color: #bbbbbb !important;
   border: none !important;
 }
 
-input::placeholder, textarea::placeholder{
+input::placeholder,
+textarea::placeholder {
   color: black !important;
 }
 
-label{
+label {
   color: #d4af37;
   font-size: 1.3rem;
   font-weight: 500;
@@ -397,7 +398,7 @@ label{
   #pp-content {
     font-size: 1.2rem;
   }
-  header p{
+  header p {
     font-size: 1.4rem !important;
   }
 }
@@ -407,7 +408,7 @@ label{
   #pre-loader {
     background-size: 15%;
   }
-  header p{
+  header p {
     font-size: 1.2rem !important;
   }
   nav {
@@ -449,5 +450,16 @@ label{
   }
   #pp-content {
     font-size: 1rem;
+  }
+  label,
+  text-area,
+  input {
+    font-size: 1rem !important;
+  }
+  #more-2 {
+    font-size: 1rem !important;
+  }
+  input::placeholder {
+    font-size: 1rem !important;
   }
 }
