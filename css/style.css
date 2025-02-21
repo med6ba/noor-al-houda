@@ -367,21 +367,6 @@ label {
   font-weight: 500;
 }
 
-#more-2 {
-  background-color: #d4af37;
-  color: #121212;
-  border: none;
-  padding: 10px 20px;
-  border-radius: 10px;
-  font-size: 20px;
-  font-weight: 500;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  transition: 0.3s all ease;
-}
-
 .header-image {
   width: 45%;
   border-radius: 25px !important;
@@ -393,14 +378,6 @@ label {
   transform: scale(0.98);
   box-shadow: 0px 0px 60px rgba(212, 175, 55, 0.342);
   transition: 0.3s all ease;
-}
-
-.surah-intro {
-  background-color: #121212;
-  padding: 25px;
-  border-radius: 10px;
-  color: #bbbbbb;
-  font-size: 1.4rem;
 }
 
 .surah-content {
@@ -419,7 +396,7 @@ label {
   font-family: "Uthmanic-Warsh";
   font-size: 2rem;
   text-align: justify;
-  padding: 10px 50px 20px 50px;
+  padding: 10px 50px 30px 50px;
   color: #bbbbbb;
 }
 
@@ -447,6 +424,13 @@ label {
 #pagination {
   display: flex;
   margin: auto;
+}
+
+#surah-header{
+  font-size: 2rem;
+  font-weight: 800;
+  color: #d4af37;
+  padding: 20px;
 }
 
 /* Tablet Media Query */
@@ -482,9 +466,6 @@ label {
   }
   .othmanic-content {
     font-size: 1.5rem;
-  }
-  .surah-intro {
-    font-size: 1.2rem;
   }
   .othmanic-content {
     padding: 0px 40px 10px 40px;
@@ -555,9 +536,6 @@ label {
   }
   .othmanic-content {
     font-size: 1.2rem;
-  }
-  .surah-intro {
-    font-size: 1rem;
   }
   .othmanic-content {
     padding: 0px 30px 0px 30px;

@@ -38,8 +38,8 @@ function copyLink() {
 }
 
 // Define min and max font sizes (in pixels)
-const minFontSize = 12; // Minimum font size
-const maxFontSize = 40; // Maximum font size
+const minFontSize = 20; // Minimum font size
+const maxFontSize = 60; // Maximum font size
 
 // Function to zoom in the font size
 function zoomIn() {
