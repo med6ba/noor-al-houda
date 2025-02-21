@@ -67,7 +67,6 @@ body {
 }
 
 nav {
-  backdrop-filter: blur(10px);
   background: #303030;
   border-bottom-right-radius: 25px;
   border-bottom-left-radius: 25px;
@@ -97,7 +96,28 @@ nav div {
   color: #121212;
 }
 
+#more-3 {
+  background-color: #d4af37;
+  margin: 15px 15px 0 15px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s all ease;
+}
+
+#more-link-3 {
+  text-decoration: none;
+  color: #121212;
+}
+
 #more:hover {
+  background-color: #c4a338;
+  transition: 0.3s all ease;
+}
+
+#more-3:hover {
   background-color: #c4a338;
   transition: 0.3s all ease;
 }
@@ -189,7 +209,6 @@ footer {
   border-top-right-radius: 25px;
   border-top-left-radius: 25px;
   padding: 20px 0 0 0;
-  backdrop-filter: blur(10px);
   border-top: 2px solid #d4af37;
   border-left: 2px solid #d4af37;
   border-right: 2px solid #d4af37;
