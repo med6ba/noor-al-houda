@@ -411,7 +411,7 @@ label {
 .basmalah {
   width: 320px;
   display: block;
-  padding: 30px 0 20px 0;
+  padding: 30px 30px 20px 30px;
   margin: auto;
 }
 
@@ -480,6 +480,12 @@ label {
   .header-image {
     width: 60%;
   }
+  .othmanic-content {
+    font-size: 1.5rem;
+  }
+  .surah-intro{
+    font-size: 1rem;
+  }
 }
 
 /* Mobile Media Query */
@@ -543,5 +549,11 @@ label {
   }
   .header-image {
     width: 70%;
+  }
+  .othmanic-content {
+    font-size: 1.2rem;
+  }
+  .surah-intro{
+    font-size: 0.8rem;
   }
 }
