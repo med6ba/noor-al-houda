@@ -367,6 +367,23 @@ label {
   font-weight: 500;
 }
 
+#more-2 {
+  background-color: #d4af37;
+  color: #121212;
+  width: 100%;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s all ease;
+}
+
+#more-2:hover {
+  background-color: #c4a338;
+  transition: 0.3s all ease;
+}
+
 .header-image {
   width: 45%;
   border-radius: 25px !important;
@@ -422,7 +439,7 @@ label {
   margin: auto;
 }
 
-#surah-header{
+#surah-header {
   font-size: 2rem;
   font-weight: 800;
   color: #d4af37;
@@ -446,6 +463,9 @@ label {
     font-size: 1.2rem !important;
   }
   #more {
+    font-size: 15px !important;
+  }
+  #more-3 {
     font-size: 15px !important;
   }
   .socials a i {
@@ -522,6 +542,9 @@ label {
     font-size: 1rem !important;
   }
   #more-2 {
+    font-size: 1rem !important;
+  }
+  #more-3 {
     font-size: 1rem !important;
   }
   input::placeholder {
