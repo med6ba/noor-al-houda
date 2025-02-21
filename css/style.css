@@ -444,7 +444,7 @@ label {
   color: #121212 !important;
 }
 
-#pagination{
+#pagination {
   display: flex;
   margin: auto;
 }
@@ -483,8 +483,11 @@ label {
   .othmanic-content {
     font-size: 1.5rem;
   }
-  .surah-intro{
+  .surah-intro {
     font-size: 1.2rem;
+  }
+  .othmanic-content {
+    padding: 0px 40px 10px 40px;
   }
 }
 
@@ -553,7 +556,10 @@ label {
   .othmanic-content {
     font-size: 1.2rem;
   }
-  .surah-intro{
+  .surah-intro {
     font-size: 1rem;
+  }
+  .othmanic-content {
+    padding: 0px 30px 0px 30px;
   }
 }
