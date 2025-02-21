@@ -395,6 +395,60 @@ label {
   transition: 0.3s all ease;
 }
 
+.surah-intro {
+  background-color: #121212;
+  padding: 25px;
+  border-radius: 10px;
+  color: #bbbbbb;
+  font-size: 1.4rem;
+}
+
+.surah-content {
+  background-color: #121212;
+  border-radius: 10px;
+}
+
+.basmalah {
+  width: 320px;
+  display: block;
+  padding: 30px 0 20px 0;
+  margin: auto;
+}
+
+.othmanic-content {
+  font-family: "Uthmanic-Warsh";
+  font-size: 2rem;
+  text-align: justify;
+  padding: 10px 50px 20px 50px;
+  color: #bbbbbb;
+}
+
+#pagination button {
+  background-color: #d4af37;
+  border: none;
+  color: #121212;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.3s all ease;
+}
+
+#pagination a {
+  width: 50%;
+  text-decoration: none;
+  color: #121212;
+}
+
+#pagination i {
+  color: #121212 !important;
+}
+
+#pagination{
+  display: flex;
+  margin: auto;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {

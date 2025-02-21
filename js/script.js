@@ -36,3 +36,31 @@ function copyLink() {
     .then(() => alert("تم نسخ الرابط!"))
     .catch((err) => console.error("Error copying link: ", err));
 }
+
+// Define min and max font sizes (in pixels)
+const minFontSize = 20; // Minimum font size
+const maxFontSize = 50; // Maximum font size
+
+// Function to zoom in the font size
+function zoomIn() {
+  let content = document.querySelector(".zoom-content");
+  let currentSize = window.getComputedStyle(content).fontSize;
+  let newSize = parseFloat(currentSize) * 1.1; // Increase font size by 10%
+
+  // Check if new size is within the max limit
+  if (newSize <= maxFontSize) {
+    content.style.fontSize = newSize + "px";
+  }
+}
+
+// Function to zoom out the font size
+function zoomOut() {
+  let content = document.querySelector(".zoom-content");
+  let currentSize = window.getComputedStyle(content).fontSize;
+  let newSize = parseFloat(currentSize) / 1.1; // Decrease font size by 10%
+
+  // Check if new size is within the min limit
+  if (newSize >= minFontSize) {
+    content.style.fontSize = newSize + "px";
+  }
+}
