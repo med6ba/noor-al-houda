@@ -404,15 +404,11 @@ label {
   background-color: #d4af37;
   border: none;
   color: #121212;
-  padding: 10px 20px;
   border-radius: 10px;
-  font-size: 20px;
-  font-weight: 500;
   transition: 0.3s all ease;
 }
 
 #pagination a {
-  width: 50%;
   text-decoration: none;
   color: #121212;
 }
