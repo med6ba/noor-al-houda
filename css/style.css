@@ -68,12 +68,8 @@ body {
 
 nav {
   background: #303030;
-  border-bottom-right-radius: 25px;
-  border-bottom-left-radius: 25px;
+  border-bottom: #d4af37 solid 2px;
   height: 100px;
-  border-bottom: 2px solid #d4af37;
-  border-left: 2px solid #d4af37;
-  border-right: 2px solid #d4af37;
 }
 
 nav div {
@@ -206,12 +202,8 @@ footer {
   background-color: #303030;
   color: #d4af37;
   height: 70px;
-  border-top-right-radius: 25px;
-  border-top-left-radius: 25px;
   padding: 20px 0 0 0;
-  border-top: 2px solid #d4af37;
-  border-left: 2px solid #d4af37;
-  border-right: 2px solid #d4af37;
+  border-top: #d4af37 solid 2px;
 }
 
 footer p {
@@ -403,7 +395,7 @@ label {
 }
 
 .basmalah {
-  width: 320px;
+  width: 400px;
   display: block;
   padding: 30px 30px 20px 30px;
   margin: auto;
