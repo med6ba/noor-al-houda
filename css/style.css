@@ -367,7 +367,7 @@ label {
   padding: 10px 20px;
   border-radius: 10px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   transition: 0.3s all ease;
 }
 
@@ -438,6 +438,15 @@ label {
   font-weight: 800;
   color: #d4af37;
   padding: 20px 0 10px 0;
+}
+
+#back{
+  text-decoration: none;
+  color: #d4af37;
+}
+
+#back:hover{
+  text-decoration: underline;
 }
 
 /* Tablet Media Query */
