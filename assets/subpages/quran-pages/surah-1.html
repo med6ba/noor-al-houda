@@ -43,40 +43,30 @@
     <main class="container text-left my-4" id="main">
       <section class="container my-4">
         <div class="row">
-          <article class="col">
+          <article class="col text-center">
             <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="surah-header">
               سورة الفاتحة
             </h1>
-            <div class="row" id="pagination">
-              <div class="col-3 text-center">
-                <button title="السابق" class="btn btn-primary w-100">
-                  <i class="fa-solid fa-circle-right text-center"></i>
-                </button>
-              </div>
-              <div class="col-3 text-center">
+            <div class="row justify-content-center mb-3" id="pagination">
+              <div class="col-auto">
                 <button
                   title="تصغير الخط"
-                  class="btn btn-primary w-100"
+                  class="btn btn-primary"
                   onclick="zoomOut()"
                 >
                   <i class="fa-solid fa-magnifying-glass-minus text-center"></i>
+                  تصغير الخط
                 </button>
               </div>
-              <div class="col-3 text-center">
+              <div class="col-auto">
                 <button
                   title="تكبير الخط"
-                  class="btn btn-primary w-100"
+                  class="btn btn-primary"
                   onclick="zoomIn()"
                 >
                   <i class="fa-solid fa-magnifying-glass-plus text-center"></i>
+                  تكبير الخط
                 </button>
-              </div>
-              <div class="col-3 text-center">
-                <a title="التالي" href="surah-2.html" class="w-100 text-center">
-                  <button title="التالي" class="btn btn-primary w-100">
-                    <i class="fa-solid fa-circle-left text-center"></i>
-                  </button>
-                </a>
               </div>
             </div>
             <span class="surah-content">
@@ -93,6 +83,22 @@
                 غَيْرِ اِ۬لْمَغْضُوبِ عَلَيْهِمْ وَلَا اَ۬لضَّآلِّينَۖ (7)
               </p>
             </span>
+            <div class="row justify-content-center mt-3" id="pagination">
+              <div class="col-auto">
+                <button title="السابق" class="btn btn-primary">
+                  <i class="fa-solid fa-circle-right text-center"></i>
+                  السابق
+                </button>
+              </div>
+              <div class="col-auto">
+                <a title="التالي" href="surah-2.html">
+                  <button title="التالي" class="btn btn-primary">
+                    التالي
+                    <i class="fa-solid fa-circle-left text-center"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
           </article>
         </div>
       </section>
