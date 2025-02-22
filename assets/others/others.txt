@@ -1,4 +1,13 @@
-color palette:
+bugs:
+	=> 40-nawayiya cards should be 1 per ligne in sm size (solved)
+	=> should changing carousel gestures (not solved)
+	=> static paragraph cards shouldn't be hovered (solved)
+	=> should adding techs used in the about-website page (banners: html + css + bootstrap + js)
+
+
+
+
+	color palette:
 #D4AF37
 #121212
 
