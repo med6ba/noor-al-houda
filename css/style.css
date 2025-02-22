@@ -440,12 +440,19 @@ label {
   padding: 20px 0 10px 0;
 }
 
-#back i{
+#back i {
   color: #121212;
   background-color: #d4af37;
   padding: 5px 10px;
   font-size: 0.9rem !important;
   border-radius: 20px;
+}
+
+iframe {
+  border-radius: 25px;
+  width: 500px;
+  height: 281px;
+  aspect-ratio: 16/9;
 }
 
 /* Tablet Media Query */
@@ -487,6 +494,10 @@ label {
   }
   .othmanic-content {
     padding: 0px 40px 10px 40px;
+  }
+  iframe{
+    width: 480px;
+    height: 270px;
   }
 }
 
@@ -561,5 +572,9 @@ label {
   .othmanic-content {
     margin: 0 -30px;
     padding: 0px 30px 0px 30px;
+  }
+  iframe{
+    width: 320px;
+    height: 150px;
   }
 }
