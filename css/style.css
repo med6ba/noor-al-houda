@@ -440,13 +440,12 @@ label {
   padding: 20px 0 10px 0;
 }
 
-#back{
-  text-decoration: none;
-  color: #d4af37;
-}
-
-#back:hover{
-  text-decoration: underline;
+#back i{
+  color: #121212;
+  background-color: #d4af37;
+  padding: 5px 10px;
+  font-size: 0.9rem !important;
+  border-radius: 20px;
 }
 
 /* Tablet Media Query */
