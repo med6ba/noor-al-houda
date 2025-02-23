@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../../css/bootstrap.css" />
     <link rel="stylesheet" href="../font-awesome/css/all.css" />
     <!-- Website title -->
-    <title>نور الهدى | سياسة الخصوصية</title>
+    <title>نور الهدى | اتصل بنا</title>
     <!-- Website FavIcon -->
     <link
       rel="shortcut icon"
@@ -42,7 +42,7 @@
           <i class="fa-solid fa-left-long fa-flip-horizontal"></i>
         </a>
         <a
-        href="../../index.html"
+          href="../../index.html"
           class="navbar-brand position-absolute start-50 translate-middle-x"
         >
           <img
@@ -55,9 +55,10 @@
     </nav>
     <!-- Main -->
     <main class="container text-left my-4" id="main">
-      <section class="container my-4">
+      <section class="container mt-4">
         <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="section-header">
-          <i class="fa-solid fa-user-lock"></i> سياسة الخصوصية
+          <i class="fa-solid fa-envelope-circle-check"></i>
+          اتـــصل بــــــنا
         </h1>
         <br />
         <div class="row">
@@ -66,36 +67,55 @@
               class="card text-right shadow-sm p-3 h-100 d-flex flex-column justify-content-center"
               id="not-hover"
             >
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                نحن في نور الهدى نحترم خصوصية زوارنا ونلتزم بحماية بياناتهم.
-                توضح هذه السياسة كيفية جمع واستخدام المعلومات عند تصفح موقعنا
-              </p>
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                نقوم بجمع بعض المعلومات غير الشخصية تلقائيًا عند تصفح الموقع،
-                مثل:
-                <br />
-                عنوان IP، نوع الجهاز والمتصفح، الصفحات التي تمت زيارتها، ملفات
-                تعريف الارتباط (Cookies). لتحسين تجربة المستخدم وتحليل الأداء
-              </p>
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                نستخدم المعلومات التي نجمعها من أجل:
-                <br />
-                تحسين تجربة المستخدم وتطوير الموقع، تحليل أداء الموقع ومعرفة
-                تفاعل الزوار، الامتثال للمتطلبات القانونية عند الحاجة
-              </p>
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                نطبق إجراءات أمان لحماية بيانات الزوار ومنع أي وصول غير مصرح به
-              </p>
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                يستخدم الموقع ملفات تعريف الارتباط لتحسين الأداء، ويمكنك تعطيلها
-                من خلال إعدادات المتصفح
-              </p>
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                قد نقوم بتحديث هذه السياسة، وسيتم نشر أي تغييرات هنا
-              </p>
-              <p class="fw-bold text-end mb-3 text-justify" id="pp-content">
-                آخر تحديث: 18/02/2025
-              </p>
+              <form action="https://formspree.io/f/mvgzddko" method="POST">
+                <div class="row">
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="mb-1">
+                      <label for="name" class="form-label">الإسم</label>
+                      <input
+                        type="text"
+                        class="form-control focus-ring focus-ring-warning"
+                        id="name"
+                        name="name"
+                        placeholder="أدخل اسمك"
+                        required
+                      />
+                    </div>
+                    <div>
+                      <label for="email" class="form-label"
+                        >البريد الإلكتروني</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control focus-ring focus-ring-warning"
+                        id="email"
+                        name="email"
+                        placeholder="أدخل بريدك الإلكتروني"
+                        required
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div>
+                      <label for="message" class="form-label">الرسالة</label>
+                      <textarea
+                        class="form-control focus-ring focus-ring-warning"
+                        id="message"
+                        name="message"
+                        placeholder="اكتب رسالتك هنا"
+                        required
+                      ></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div>
+                      <button id="more-2" type="submit" class="btn btn-primary">
+                        إرسال
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </form>
             </div>
           </article>
         </div>
