@@ -446,12 +446,12 @@ label {
   border-radius: 7px;
 }
 
-iframe {
+/* iframe {
   border-radius: 25px;
   width: 500px;
   height: 281px;
   aspect-ratio: 16/9;
-}
+} */
 
 textarea {
   height: 152px;
@@ -522,10 +522,10 @@ textarea {
   .othmanic-content {
     padding: 0px 40px 10px 40px;
   }
-  iframe {
+  /* iframe {
     width: 480px;
     height: 270px;
-  }
+  } */
   .short-links-container a {
     font-size: 17px;
   }
@@ -603,10 +603,10 @@ textarea {
     margin: 0 -30px;
     padding: 0px 30px 0px 30px;
   }
-  iframe {
+  /* iframe {
     width: 320px;
     height: 150px;
-  }
+  } */
   .short-links-container a {
     font-size: 14px;
   }
