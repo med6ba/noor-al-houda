@@ -211,7 +211,7 @@ footer p {
 #progress {
   position: fixed;
   bottom: 10px;
-  right: 10px;
+  right: 5px;
   height: 40px;
   width: 40px;
   display: none;
@@ -224,9 +224,9 @@ footer p {
 #progress-value {
   color: #121212;
   background-color: #d4af37;
-  padding: 8px 8px;
+  padding: 7px 7.5px;
   font-size: 1rem !important;
-  border-radius: 8px;
+  border-radius: 7px;
 }
 
 .carousel-inner {
@@ -443,7 +443,7 @@ label {
   background-color: #d4af37;
   padding: 5px 10px;
   font-size: 1rem !important;
-  border-radius: 8px;
+  border-radius: 7px;
 }
 
 iframe {
