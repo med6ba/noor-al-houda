@@ -68,7 +68,6 @@ body {
 
 nav {
   background: #303030;
-  /* border-bottom: #d4af37 solid 2px; */
   height: 100px;
 }
 
@@ -202,10 +201,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #303030;
   color: #d4af37;
   padding: 20px 0 0 0;
-  /* border-top: #d4af37 solid 2px; */
 }
 
 footer p {
