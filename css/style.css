@@ -199,9 +199,11 @@ hr {
 }
 
 footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #303030;
   color: #d4af37;
-  height: 68px;
   padding: 20px 0 0 0;
   /* border-top: #d4af37 solid 2px; */
 }
@@ -536,9 +538,6 @@ textarea {
   .short-links-container a {
     font-size: 17px;
   }
-  footer {
-    height: 66px !important;
-  }
 }
 
 /* Mobile Media Query */
@@ -582,7 +581,6 @@ textarea {
   footer {
     border-left: none;
     border-right: none;
-    height: 64px !important;
   }
   footer p {
     font-size: 1rem;
