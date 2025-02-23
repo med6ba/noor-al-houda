@@ -198,13 +198,9 @@ hr {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
   background-color: #303030;
   color: #d4af37;
-  padding: 20px 0 0 0;
+  padding: 15px 0 0 0;
 }
 
 footer p {
@@ -214,8 +210,8 @@ footer p {
 
 #progress {
   position: fixed;
-  bottom: 12px;
-  right: 12px;
+  bottom: 10px;
+  right: 10px;
   height: 40px;
   width: 40px;
   display: none;
@@ -617,5 +613,9 @@ textarea {
   }
   .short-links-container a {
     font-size: 14px;
+  }
+  #progress {
+    bottom: 8px;
+    right: 8px;
   }
 }
