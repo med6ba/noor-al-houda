@@ -79,12 +79,6 @@ https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA
 
 
 
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
   <head>
@@ -118,7 +112,7 @@ https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA
     <div id="pre-loader"></div>
     <!-- Back to TOP -->
     <div id="progress">
-      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+      <span id="progress-value"><i class="fa-solid fa-up-long"></i></span>
     </div>
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg shadow sticky-top">
@@ -134,7 +128,7 @@ https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA
           <i class="fa-solid fa-left-long fa-flip-horizontal"></i>
         </a>
         <a
-          href="index.html"
+          href="../../../index.html"
           class="navbar-brand position-absolute start-50 translate-middle-x"
         >
           <img
@@ -186,7 +180,7 @@ https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA
             </span>
             <div class="row justify-content-center mt-3" id="pagination">
               <div class="col-auto">
-                <a title="السابق" href="surah-14.html">
+                <a title="السابق" href="surah-.html">
                   <button title="السابق" class="btn btn-primary">
                     <i class="fa-solid fa-circle-right text-center"></i>
                     السابق
@@ -194,7 +188,7 @@ https://www.youtube.com/playlist?list=PLQ7560lEIhRy3Hi7O_3tnQqWQUa9L-RvA
                 </a>
               </div>
               <div class="col-auto">
-                <a title="التالي" href="surah-16.html">
+                <a title="التالي" href="surah-.html">
                   <button title="التالي" class="btn btn-primary">
                     التالي
                     <i class="fa-solid fa-circle-left text-center"></i>
