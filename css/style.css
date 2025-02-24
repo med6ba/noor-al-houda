@@ -485,7 +485,7 @@ label {
   width: 40px;
   padding: 0;
   border-radius: 50%;
-  background-color: var(--hover-bg);
+  background-color: var(--accent-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -495,7 +495,7 @@ label {
 }
 
 #theme-switch i {
-  color: var(--accent-color);
+  color: var(--hover-bg);
   font-size: 20px;
 }
 
