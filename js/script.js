@@ -110,27 +110,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
-
-// Search functionality
-  document.getElementById("search-input").addEventListener("keyup", function () {
-    let searchText = this.value.trim().toLowerCase();
-    let resultsContainer = document.getElementById("search-results");
-    resultsContainer.innerHTML = ""; // Clear previous results
-
-    if (searchText === "") return; // Stop if input is empty
-
-    let allTextElements = document.body.querySelectorAll("p, h1, h2, h3, h4, h5, h6, span, li, a"); // Select all readable text elements
-    let results = [];
-
-    allTextElements.forEach(el => {
-      if (el.textContent.toLowerCase().includes(searchText)) {
-        results.push(`<div class="search-item"><a href="#">${el.textContent}</a></div>`);
-      }
-    });
-
-    if (results.length > 0) {
-      resultsContainer.innerHTML = results.join(""); // Show found items
-    } else {
-      resultsContainer.innerHTML = "<p class='text-center text-muted'>لم يتم العثور على نتائج</p>";
-    }
-  });
