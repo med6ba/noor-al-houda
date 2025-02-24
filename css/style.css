@@ -1,11 +1,11 @@
-/*
-Color palette:
-  #121212: website bg
-  #D4AF37: accent color
-  #303030: nav/cards bg
-  #3b3b3b: cards hover bg
-  #bbbbbb: text color
-*/
+:root {
+  --general-bg: #121212;
+  --accent-color: #d4af37;
+  --nav-cards-bg: #303030;
+  --hover-bg: #3b3b3b;
+  --btn-hover-bg: #c4a338;
+  --text-color: #bbbbbb;
+}
 
 /* Importing fonts */
 
@@ -34,8 +34,8 @@ Color palette:
 }
 
 ::selection {
-  background-color: #d4af37;
-  color: #121212;
+  background-color: var(--accent-color);
+  color: var(--general-bg);
 }
 
 body::-webkit-scrollbar {
@@ -43,16 +43,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background-color: #303030;
+  background-color: var(--nav-cards-bg);
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #c4a338;
+  background-color: var(--btn-hover-bg);
   border-radius: 50px;
-}
-
-body {
-  min-height: 100dvh;
 }
 
 html,
@@ -61,13 +57,14 @@ body {
   display: flex;
   scroll-behavior: smooth;
   flex-direction: column;
-  background-color: #121212 !important;
-  color: #d4af37 !important;
+  background-color: var(--general-bg) !important;
+  color: var(--accent-color) !important;
   font-family: "IBM-R", sans-serif !important;
+  min-height: 100dvh;
 }
 
 nav {
-  background: #303030;
+  background: var(--nav-cards-bg);
   height: 100px;
 }
 
@@ -76,7 +73,7 @@ nav div {
 }
 
 #more {
-  background-color: #d4af37;
+  background-color: var(--accent-color);
   margin: 15px 15px 0 15px;
   border: none;
   padding: 10px 20px;
@@ -88,11 +85,11 @@ nav div {
 
 #more-link {
   text-decoration: none;
-  color: #121212;
+  color: var(--general-bg);
 }
 
 #more-3 {
-  background-color: #d4af37;
+  background-color: var(--accent-color);
   margin: 15px 15px 0 15px;
   border: none;
   padding: 10px 20px;
@@ -104,21 +101,21 @@ nav div {
 
 #more-link-3 {
   text-decoration: none;
-  color: #121212;
+  color: var(--general-bg);
 }
 
 #more:hover {
-  background-color: #c4a338;
+  background-color: var(--btn-hover-bg);
   transition: 0.3s all ease;
 }
 
 #more-3:hover {
-  background-color: #c4a338;
+  background-color: var(--btn-hover-bg);
   transition: 0.3s all ease;
 }
 
 #pre-loader {
-  background: #121212
+  background: var(--general-bg)
     url(https://cdn.pixabay.com/animation/2022/07/29/03/42/03-42-15-221_512.gif)
     no-repeat center center;
   background-size: 4%;
@@ -133,13 +130,13 @@ header {
 }
 
 header h1 {
-  color: #d4af37;
+  color: var(--accent-color);
   font-weight: 800;
   margin: 0 10px 15px 10px;
 }
 
 header p {
-  color: #bbbbbb;
+  color: var(--text-color);
   margin: 0 10px 0 10px !important;
   font-size: 1.5rem !important;
 }
@@ -156,28 +153,28 @@ main section div {
 
 .card {
   border-radius: 15px !important;
-  background-color: #303030 !important;
+  background-color: var(--nav-cards-bg) !important;
   transition: 0.4s all ease;
 }
 
 .card .card-title {
   font-weight: 500;
-  color: #bbbbbb !important;
+  color: var(--text-color) !important;
   font-size: 1.6rem;
 }
 
 .card:hover {
-  background-color: #3b3b3b !important;
+  background-color: var(--hover-bg) !important;
   transition: 0.4s all ease;
 }
 
 main section div a {
-  color: #d4af37 !important;
+  color: var(--accent-color) !important;
   text-decoration: none;
 }
 
 .col i {
-  color: #d4af37 !important;
+  color: var(--accent-color) !important;
   margin-top: 5px;
 }
 
@@ -192,14 +189,14 @@ hr {
   background-image: linear-gradient(
     to right,
     rgba(0, 0, 0, 0),
-    #d4af37,
+    var(--accent-color),
     rgba(0, 0, 0, 0)
   ) !important;
 }
 
 footer {
-  background-color: #303030;
-  color: #d4af37;
+  background-color: var(--nav-cards-bg);
+  color: var(--accent-color);
   padding: 15px 0 0 0;
 }
 
@@ -222,15 +219,15 @@ footer p {
 }
 
 #progress-value {
-  color: #121212;
-  background-color: #d4af37;
+  color: var(--general-bg);
+  background-color: var(--accent-color);
   padding: 7px 7.5px;
   font-size: 1rem !important;
   border-radius: 7px;
 }
 
 .carousel-inner {
-  background-color: #303030;
+  background-color: var(--nav-cards-bg);
   padding: 20px;
   border-radius: 15px;
 }
@@ -249,7 +246,7 @@ footer p {
 .carousel-item p {
   width: 70%;
   margin: auto;
-  color: #d4af37;
+  color: var(--accent-color);
   font-size: 2rem;
   min-height: 100px;
   position: absolute;
@@ -259,11 +256,11 @@ footer p {
 }
 
 p .douae-span {
-  color: #bbbbbb;
+  color: var(--text-color);
 }
 
 .fa-star {
-  color: #bbbbbb;
+  color: var(--text-color);
 
   display: flex;
   justify-content: center;
@@ -271,11 +268,11 @@ p .douae-span {
 }
 
 .checked {
-  color: #d4af37;
+  color: var(--accent-color);
 }
 
 .rating-card {
-  background-color: #303030;
+  background-color: var(--nav-cards-bg);
   border-radius: 15px;
   padding: 30px !important;
   transition: 0.4s all ease;
@@ -283,22 +280,22 @@ p .douae-span {
 
 .rating-card p {
   padding: 0 10px;
-  color: #bbbbbb;
+  color: var(--text-color);
   font-size: 20px;
   font-weight: 500;
 }
 
 .rating-card:hover {
-  background-color: #3b3b3b !important;
+  background-color: var(--hover-bg) !important;
   transition: 0.4s all ease;
 }
 
 .rating-btn {
-  color: #121212;
+  color: var(--general-bg);
 }
 
 #support {
-  color: #121212 !important;
+  color: var(--general-bg) !important;
 }
 
 #under-construction {
@@ -306,27 +303,27 @@ p .douae-span {
 }
 
 .socials a i {
-  color: #bbbbbb;
+  color: var(--text-color);
   font-size: 35px !important;
   padding: 10px;
   transition: 0.1s all ease;
 }
 
 .socials a i:hover {
-  color: #d4af37;
+  color: var(--accent-color);
   transform: scale(1.1);
   transition: 0.1s all ease;
 }
 
 #pp-content {
-  color: #bbbbbb !important;
+  color: var(--text-color) !important;
   padding: 10px 20px 0 20px;
   font-size: 1.4rem;
   font-weight: 500 !important;
 }
 
 #not-hover:hover {
-  background-color: #303030 !important;
+  background-color: var(--nav-cards-bg) !important;
 }
 
 #techs i {
@@ -337,29 +334,29 @@ p .douae-span {
 input {
   padding: 10px !important;
   margin: 0 0 0 80px !important;
-  background-color: #bbbbbb !important;
+  background-color: var(--text-color) !important;
   border: none !important;
 }
 
 textarea {
-  background-color: #bbbbbb !important;
+  background-color: var(--text-color) !important;
   border: none !important;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: black !important;
+  color: var(--general-bg) !important;
 }
 
 label {
-  color: #d4af37;
+  color: var(--accent-color);
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 #more-2 {
-  background-color: #d4af37;
-  color: #121212;
+  background-color: var(--accent-color);
+  color: var(--general-bg);
   width: 100%;
   border: none;
   padding: 10px 20px;
@@ -370,25 +367,12 @@ label {
 }
 
 #more-2:hover {
-  background-color: #c4a338;
-  transition: 0.3s all ease;
-}
-
-.header-image {
-  width: 45%;
-  border-radius: 25px !important;
-  box-shadow: 0px 0px 30px rgba(212, 175, 55, 0.342);
-  transition: 0.3s all ease;
-}
-
-.header-image:hover {
-  transform: scale(0.98);
-  box-shadow: 0px 0px 60px rgba(212, 175, 55, 0.342);
+  background-color: var(--btn-hover-bg);
   transition: 0.3s all ease;
 }
 
 .surah-content {
-  background-color: #121212;
+  background-color: var(--general-bg);
   border-radius: 10px;
 }
 
@@ -404,24 +388,24 @@ label {
   font-size: 2rem;
   text-align: justify;
   padding: 10px 50px 30px 50px;
-  color: #bbbbbb;
+  color: var(--text-color);
 }
 
 #pagination button {
-  background-color: #d4af37;
+  background-color: var(--accent-color);
   border: none;
-  color: #121212;
+  color: var(--general-bg);
   border-radius: 10px;
   transition: 0.3s all ease;
 }
 
 #pagination a {
   text-decoration: none;
-  color: #121212;
+  color: var(--general-bg);
 }
 
 #pagination i {
-  color: #121212 !important;
+  color: var(--general-bg) !important;
 }
 
 #pagination {
@@ -434,28 +418,21 @@ label {
 #surah-header {
   font-size: 2rem;
   font-weight: 800;
-  color: #d4af37;
+  color: var(--accent-color);
   padding: 20px 0 10px 0;
 }
 
 #back i {
-  color: #121212;
-  background-color: #d4af37;
+  color: var(--general-bg);
+  background-color: var(--accent-color);
   padding: 5px 10px;
   font-size: 1rem !important;
   border-radius: 7px;
 }
 
-.eng{
+.eng {
   font-family: "IBM-B", sans-serif !important;
 }
-
-/* iframe {
-  border-radius: 25px;
-  width: 500px;
-  height: 281px;
-  aspect-ratio: 16/9;
-} */
 
 textarea {
   height: 152px;
@@ -467,9 +444,10 @@ textarea {
   justify-content: center;
   gap: 10px;
 }
+
 .short-links-container a {
-  background-color: #303030;
-  color: #bbbbbb !important;
+  background-color: var(--nav-cards-bg);
+  color: var(--text-color) !important;
   padding: 5px 15px;
   border-radius: 10px;
   text-decoration: none;
@@ -482,7 +460,7 @@ textarea {
 }
 
 .short-links-container a:hover {
-  background-color: #3b3b3b;
+  background-color: var(--hover-bg);
   transition: 0.3s all ease;
 }
 
@@ -496,7 +474,7 @@ textarea {
   }
   .card .card-title {
     font-weight: 500;
-    color: #bbbbbb !important;
+    color: var(--text-color) !important;
     font-size: 1.2rem !important;
   }
   .col i {
@@ -526,10 +504,6 @@ textarea {
   .othmanic-content {
     padding: 0px 40px 10px 40px;
   }
-  /* iframe {
-    width: 480px;
-    height: 270px;
-  } */
   .short-links-container a {
     font-size: 17px;
   }
@@ -557,7 +531,7 @@ textarea {
   }
   .card .card-title {
     font-weight: 500;
-    color: #bbbbbb !important;
+    color: var(--text-color) !important;
     font-size: 1rem !important;
   }
   .col i {
@@ -607,10 +581,6 @@ textarea {
     margin: 0 -30px;
     padding: 0px 30px 0px 30px;
   }
-  /* iframe {
-    width: 320px;
-    height: 150px;
-  } */
   .short-links-container a {
     font-size: 14px;
   }
