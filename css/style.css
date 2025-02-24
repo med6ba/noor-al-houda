@@ -446,6 +446,10 @@ label {
   border-radius: 7px;
 }
 
+.eng{
+  font-family: "IBM-B", sans-serif !important;
+}
+
 /* iframe {
   border-radius: 25px;
   width: 500px;
