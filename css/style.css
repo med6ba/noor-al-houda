@@ -99,7 +99,7 @@ nav div {
   transition: 0.3s all ease;
 }
 
-#more-7{
+#more-7 {
   background-color: var(--accent-color);
   margin: 0 15px 0 15px;
   border: none;
@@ -110,7 +110,7 @@ nav div {
   transition: 0.3s all ease;
 }
 
-#more-7:hover{
+#more-7:hover {
   background-color: var(--btn-hover-bg);
   transition: 0.3s all ease;
 }
@@ -548,17 +548,17 @@ label {
   display: block;
 }
 
-.hisn-title{
-  font-size: 1.8rem;
+.hisn-title {
+  font-size: 1.5rem;
   font-weight: 800;
   color: var(--accent-color);
-  padding: 0 40px;
-  margin-bottom: 20px !important;
+  padding: 30px 40px 20px 40px;
 }
 
-.hisn-text{
+.hisn-text {
   font-size: 1.2rem;
   font-weight: 500;
+  padding: 0 60px 20px 60px !important;
   color: var(--text-color);
   padding: 0 20px;
   text-align: justify;
@@ -607,6 +607,14 @@ label {
   }
   .short-links-container a {
     font-size: 17px;
+  }
+  .hisn-title {
+    padding: 20px 30px 10px 30px;
+    font-size: 1.3rem;
+  }
+  .hisn-text {
+    padding: 0 40px 20px 40px !important;
+    font-size: 1.2rem;
   }
 }
 
@@ -688,5 +696,13 @@ label {
   #progress {
     bottom: 8px;
     right: 8px;
+  }
+  .hisn-title {
+    padding: 20px 20px 10px 20px;
+    font-size: 1.1rem;
+  }
+  .hisn-text {
+    padding: 0 8px 20px 8px !important;
+    font-size: 1rem;
   }
 }
