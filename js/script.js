@@ -65,22 +65,48 @@ function zoomOut() {
   }
 }
 
-let darkmode = localStorage.getItem("dark-mode");
-const themeSwitch = document.getElementById("theme-switch");
+document.addEventListener("DOMContentLoaded", () => {
+  let darkmode = localStorage.getItem("dark-mode");
+  const themeSwitch = document.getElementById("theme-switch");
+  const basmalahImg = document.querySelector(".basmalah");
 
-const enableDarkmode = () => {
-  document.body.classList.add("dark-mode");
-  localStorage.setItem("dark-mode", "active");
-};
+  console.log("Script loaded"); // Debugging
+  console.log("Image element:", basmalahImg); // Debugging
 
-const disableDarkmode = () => {
-  document.body.classList.remove("dark-mode");
-  localStorage.setItem("dark-mode", null);
-};
+  const enableDarkmode = () => {
+    document.body.classList.add("dark-mode");
+    localStorage.setItem("dark-mode", "active");
 
-if (darkmode === "active") enableDarkmode();
+    if (basmalahImg) {
+      basmalahImg.src = "../../images/dark-mode-image.png"; // Update with actual dark mode image
+      console.log("Dark mode enabled - Image changed to dark mode");
+    }
+  };
 
-themeSwitch.addEventListener("click", () => {
-  darkmode = localStorage.getItem("dark-mode");
-  darkmode !== "active" ? enableDarkmode() : disableDarkmode();
+  const disableDarkmode = () => {
+    document.body.classList.remove("dark-mode");
+    localStorage.setItem("dark-mode", "inactive");
+
+    if (basmalahImg) {
+      basmalahImg.src = "../../images/light-mode-image.png"; // Update with actual light mode image
+      console.log("Light mode enabled - Image changed to light mode");
+    }
+  };
+
+  // Apply correct mode on page load
+  if (darkmode === "active") {
+    enableDarkmode();
+  } else {
+    disableDarkmode();
+  }
+
+  // Toggle mode on button click
+  themeSwitch.addEventListener("click", () => {
+    darkmode = localStorage.getItem("dark-mode");
+    if (darkmode !== "active") {
+      enableDarkmode();
+    } else {
+      disableDarkmode();
+    }
+  });
 });

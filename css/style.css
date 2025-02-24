@@ -6,6 +6,8 @@
   --btn-hover-bg: #e0ac00;
   --text-color: #222222;
   --input: #ffffff;
+  --controls: #121212;
+  --l-d-i-btn: #ffffff;
 }
 
 .dark-mode {
@@ -17,6 +19,7 @@
   --text-color: #bbbbbb;
   --input: #bbbbbb;
   --place-holder: #121212;
+  --l-d-i-btn: #121212;
 }
 
 /* Importing fonts */
@@ -413,18 +416,18 @@ label {
 #pagination button {
   background-color: var(--accent-color);
   border: none;
-  color: var(--general-bg);
+  color: var(--controls);
   border-radius: 10px;
   transition: 0.3s all ease;
 }
 
 #pagination a {
   text-decoration: none;
-  color: var(--general-bg);
+  color: var(--controls);
 }
 
 #pagination i {
-  color: var(--general-bg) !important;
+  color: var(--controls) !important;
 }
 
 #pagination {
@@ -495,7 +498,7 @@ label {
 }
 
 #theme-switch i {
-  color: var(--hover-bg);
+  color: var(--l-d-i-btn);
   font-size: 20px;
 }
 
