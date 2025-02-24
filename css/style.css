@@ -444,6 +444,10 @@ label {
   padding: 20px 0 10px 0;
 }
 
+#back{
+  margin: 0 13px 0 0 !important;
+}
+
 #back i {
   color: var(--general-bg);
   background-color: var(--accent-color);
