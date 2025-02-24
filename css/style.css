@@ -1,10 +1,22 @@
 :root {
+  --general-bg: #ffffff;
+  --accent-color: #ebb400;
+  --nav-cards-bg: #f0f0f0;
+  --hover-bg: #e5e5e5;
+  --btn-hover-bg: #e0ac00;
+  --text-color: #222222;
+  --input: #ffffff;
+}
+
+.dark-mode {
   --general-bg: #121212;
   --accent-color: #d4af37;
   --nav-cards-bg: #303030;
   --hover-bg: #3b3b3b;
   --btn-hover-bg: #c4a338;
   --text-color: #bbbbbb;
+  --input: #bbbbbb;
+  --place-holder: #121212;
 }
 
 /* Importing fonts */
@@ -35,7 +47,7 @@
 
 ::selection {
   background-color: var(--accent-color);
-  color: var(--general-bg);
+  color: #121212;
 }
 
 body::-webkit-scrollbar {
@@ -66,6 +78,7 @@ body {
 nav {
   background: var(--nav-cards-bg);
   height: 100px;
+  border-bottom: 2px var(--accent-color) solid;
 }
 
 nav div {
@@ -198,11 +211,13 @@ footer {
   background-color: var(--nav-cards-bg);
   color: var(--accent-color);
   padding: 15px 0 0 0;
+  border-top: 2px var(--accent-color) solid;
 }
 
 footer p {
   font-size: 1.3rem;
   font-weight: 600;
+  color: var(--btn-hover-bg);
 }
 
 #progress {
@@ -260,8 +275,7 @@ p .douae-span {
 }
 
 .fa-star {
-  color: var(--text-color);
-
+  color: var(--input);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,24 +348,29 @@ p .douae-span {
 input {
   padding: 10px !important;
   margin: 0 0 0 80px !important;
-  background-color: var(--text-color) !important;
+  background-color: var(--input) !important;
   border: none !important;
 }
 
 textarea {
-  background-color: var(--text-color) !important;
+  background-color: var(--input) !important;
   border: none !important;
+  height: 152px;
 }
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--general-bg) !important;
+  color: var(--place-holder) !important;
 }
 
 label {
   color: var(--accent-color);
   font-size: 1.3rem;
   font-weight: 500;
+}
+
+.submit-btn {
+  color: #121212 !important;
 }
 
 #more-2 {
@@ -434,10 +453,6 @@ label {
   font-family: "IBM-B", sans-serif !important;
 }
 
-textarea {
-  height: 152px;
-}
-
 .short-links-container {
   display: flex;
   flex-wrap: wrap;
@@ -457,11 +472,43 @@ textarea {
   align-items: center;
   margin-bottom: 5px;
   transition: 0.3s all ease;
+  border: #121212 !important;
 }
 
 .short-links-container a:hover {
   background-color: var(--hover-bg);
   transition: 0.3s all ease;
+}
+
+#theme-switch {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--hover-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 20px;
+  border: 2px solid var(--accent-color);
+}
+
+#theme-switch i {
+  color: var(--accent-color);
+  font-size: 20px;
+}
+
+#theme-switch i:last-child {
+  display: none;
+}
+
+.dark-mode #theme-switch i:first-child {
+  display: none;
+}
+
+.dark-mode #theme-switch i:last-child {
+  display: block;
 }
 
 /* Tablet Media Query */
