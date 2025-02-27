@@ -32,9 +32,9 @@ window.onload = calcScrollValue;
 
 function copyLink() {
   navigator.clipboard
-    .writeText("https://med6ba.github.io/noor-al-houda")
+    .writeText("https://noor-al-houda.vercel.app")
     .then(() => alert("تم نسخ الرابط!"))
-    .catch((err) => console.error("Error copying link: ", err));
+    .catch((err) => console.error("حدث خطأ أثناء نسخ الرابط!", err));
 }
 
 // Define min and max font sizes (in pixels)
