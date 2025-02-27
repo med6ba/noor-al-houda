@@ -63,7 +63,6 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: var(--btn-hover-bg);
-  border-radius: 50px;
 }
 
 html,
