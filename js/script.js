@@ -32,7 +32,7 @@ window.onload = calcScrollValue;
 
 function copyLink() {
   navigator.clipboard
-    .writeText("https://noor-al-houda.vercel.app")
+    .writeText("https://nooralhouda.vercel.app")
     .then(() => alert("تم نسخ الرابط!"))
     .catch((err) => console.error("حدث خطأ أثناء نسخ الرابط!", err));
 }
