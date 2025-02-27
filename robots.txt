@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://noor-al-houda.vercel.app/sitemap.xml
