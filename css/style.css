@@ -40,6 +40,10 @@
   font-family: "IBM-SB";
   src: url("../assets/fonts/IBM-SemiBold.ttf") format("truetype");
 }
+@font-face {
+  font-family: "Naskh";
+  src: url("../assets/fonts/Naskh.ttf") format("truetype");
+}
 
 /* Initializing page */
 * {
@@ -433,7 +437,9 @@ label {
 }
 
 .hisn-content {
-  font-size: 2rem;
+  font-family: Naskh;
+  font-weight: 500;
+  font-size: 2.2rem;
   text-align: justify;
   padding: 0 50px 0 50px;
   color: var(--text-color);
@@ -481,11 +487,6 @@ label {
   font-size: 1rem !important;
   border-radius: 7px;
 }
-
-/* .carousel-control-prev-icon,
-.carousel-control-next-icon {
-  color: var(--accent-color) !important;
-} */
 
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d4af37' viewBox='0 0 8 8'%3E%3Cpath d='M5.75 1l-3 3 3 3 1-1-2-2 2-2-1-1z'/%3E%3C/svg%3E") !important;
@@ -614,7 +615,7 @@ label {
   .othmanic-content {
     padding: 0px 40px 10px 40px;
   }
-  .hisn-content{
+  .hisn-content {
     font-size: 1.5rem;
   }
   .hisn-content {
@@ -708,10 +709,10 @@ label {
     margin: 0 -30px;
     padding: 0px 30px 0px 30px;
   }
-  .hisn-content{
+  .hisn-content {
     font-size: 1.2rem;
   }
-  .hisn-content{
+  .hisn-content {
     margin: 0 -30px;
     padding: 0 30px 0 30px;
   }
