@@ -432,6 +432,13 @@ label {
   color: var(--text-color);
 }
 
+.hisn-content {
+  font-size: 2rem;
+  text-align: justify;
+  padding: 0 50px 0 50px;
+  color: var(--text-color);
+}
+
 #pagination button {
   background-color: var(--accent-color);
   border: none;
@@ -607,6 +614,12 @@ label {
   .othmanic-content {
     padding: 0px 40px 10px 40px;
   }
+  .hisn-content{
+    font-size: 1.5rem;
+  }
+  .hisn-content {
+    padding: 0px 40px 0 40px;
+  }
   .short-links-container a {
     font-size: 17px;
   }
@@ -694,6 +707,13 @@ label {
   .othmanic-content {
     margin: 0 -30px;
     padding: 0px 30px 0px 30px;
+  }
+  .hisn-content{
+    font-size: 1.2rem;
+  }
+  .hisn-content{
+    margin: 0 -30px;
+    padding: 0 30px 0 30px;
   }
   .short-links-container a {
     font-size: 14px;

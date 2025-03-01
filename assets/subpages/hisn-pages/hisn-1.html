@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="website for reading the holy quran" />
+    <meta
+      name="keywords"
+      content="SEO, Quran, Islam, reading, holy quran, quran, quran karim, quran kareem, quran recitation, quran reading, quran mp3, quran download, quran search, القرآن الكريم, المصحف الشريف, تلاوة القرآن, سور القرآن, آيات القرآن, تفسير القرآن, تجويد القرآن, قراءة القرآن, حفظ القرآن, تدبر القرآن, إعجاز القرآن, علوم القرآن, فضائل القرآن, أحكام التلاوة, ختم القرآن, معاني القرآن, ترتيل القرآن, تحفيظ القرآن, قصص القرآن, تنزيل القرآن, الرقية الشرعية, تفسير الجلالين, السيرة النبوية, صحيح البخاري"
+    />
+    <meta name="author" content="Medba" />
+    <meta property="og:locale" content="ar_AR" />
+    <!-- Required links -->
+    <link rel="stylesheet" href="../../../css/style.css" />
+    <link rel="stylesheet" href="../../../css/bootstrap.css" />
+    <link rel="stylesheet" href="../../font-awesome/css/all.css" />
+    <!-- Website title -->
+    <title>نور الهدى | أذكار الصباح والمساء</title>
+    <!-- Website FavIcon -->
+    <link
+      rel="shortcut icon"
+      href="../../images/favicon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body class="d-flex flex-column min-h-dvh">
+    <!-- Page loader -->
+    <div id="pre-loader"></div>
+    <!-- Back to TOP -->
+    <div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-up-long"></i></span>
+    </div>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg shadow sticky-top">
+      <div
+        class="container-fluid d-flex justify-content-between align-items-center"
+      >
+        <a
+          href="../hisn-muslim.html"
+          class="ms-auto"
+          id="back"
+          title="عودة للخلف"
+        >
+          <i class="fa-solid fa-left-long fa-flip-horizontal"></i>
+        </a>
+        <a
+          href="../../../index.html"
+          class="navbar-brand position-absolute start-50 translate-middle-x"
+        >
+          <img
+            src="../../../assets/images/logo.png"
+            alt="logo noor al houda"
+            height="60px"
+          />
+        </a>
+        <button id="theme-switch">
+          <i class="fa-solid fa-moon"></i>
+          <i class="fa-solid fa-sun"></i>
+        </button>
+      </div>
+    </nav>
+    <!-- Main -->
+    <main class="container text-left my-4" id="main">
+      <section class="container">
+        <div class="row">
+          <article class="col text-center">
+            <h1 class="text-center fs-1 fs-md-2 fs-lg-3" id="surah-header">
+              أذكار الصباح والمساء
+            </h1>
+            <div class="row justify-content-center mb-3" id="pagination">
+              <div class="col-auto">
+                <button
+                  title="تصغير الخط"
+                  class="btn btn-primary"
+                  onclick="zoomOut()"
+                >
+                  <i class="fa-solid fa-magnifying-glass-minus text-center"></i>
+                  تصغير الخط
+                </button>
+              </div>
+              <div class="col-auto">
+                <button
+                  title="تكبير الخط"
+                  class="btn btn-primary"
+                  onclick="zoomIn()"
+                >
+                  <i class="fa-solid fa-magnifying-glass-plus text-center"></i>
+                  تكبير الخط
+                </button>
+              </div>
+            </div>
+            <span class="hisn-content surah-content">
+              <p class="zoom-content">
+                الحمد لله وحده، والصلاة والسلام على من لا نبي بعده
+                <br /><br />
+                أعوذ بالله من الشيطان الرجيم { اللّهُ لاَ إِلَـهَ إِلاَّ هُوَ
+                الْحَيُّ الْقَيُّومُ لاَ تَأْخُذُهُ سِنَةٌ وَلاَ نَوْمٌ لَّهُ
+                مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ مَن ذَا الَّذِي
+                يَشْفَعُ عِنْدَهُ إِلاَّ بِإِذْنِهِ يَعْلَمُ مَا بَيْنَ
+                أَيْدِيهِمْ وَمَا خَلْفَهُمْ وَلاَ يُحِيطُونَ بِشَيْءٍ مِّنْ
+                عِلْمِهِ إِلاَّ بِمَا شَاء وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ
+                وَالأَرْضَ وَلاَ يَؤُودُهُ حِفْظُهُمَا وَهُوَ الْعَلِيُّ
+                الْعَظِيمُ }
+                <br /><br />
+                بسم الله الرحمن الرحيم { قُلْ هُوَ اللَّهُ أَحَدٌ * اللَّهُ
+                الصَّمَدُ * لَمْ يَلِدْ وَلَمْ يُولَدْ * وَلَمْ يَكُن لَّهُ
+                كُفُواً أَحَدٌ } بسم الله الرحمن الرحيم { قُلْ أَعُوذُ بِرَبِّ
+                الْفَلَقِ * مِن شَرِّ مَا خَلَقَ *وَمِن شَرِّ غَاسِقٍ إِذَا
+                وَقَبَ * وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ * وَمِن شَرِّ
+                حَاسِدٍ إِذَا حَسَدَ } بسم الله الرحمن الرحيم { قُلْ أَعُوذُ
+                بِرَبِّ النَّاسِ * مَلِكِ النَّاسِ * إِلَهِ النَّاسِ *مِن شَرِّ
+                الْوَسْوَاسِ الْخَنَّاسِ * الَّذِي يُوَسْوِسُ فِي صُدُورِ
+                النَّاسِ * مِنَ الْجِنَّةِ وَالنَّاسِ } (ثلاث مرات)
+                <br /><br />
+                "أصبحنا وأصبح الملك لله ، والحمد لله، لا إله إلا الله وحده لا
+                شريك له، له الملك وله الحمد وهو على كل شيء قدير، ربِّ أسألك خير
+                ما في هذا اليوم وخير ما بعده وأعوذ بك من شر ما في هذه الليلة وشر
+                ما بعدها ربِّ أعوذ بك من الكسل وسوء الكبر، ربَّ أعوذ بك من عذابٍ
+                في النار وعذاب في القبر"
+                <br /><br />
+                "اللهم بك أصبحنا وبك أمسينا وبك نحيا وبك نموت وإليك النشور"
+                <br /><br />
+                "اللهم أنت ربي لا إله إلا أنت خَلَقتني وأنا عَبْدُك وأنا على
+                عهدك ووعدك ما استطعت وأعوذ بك من شر ما صنعت أبوء لك بنعمتك على
+                وأبوء بذنبي فاغفر لي فإنه لا يغفر الذنوب إلا أنت"
+                <br /><br />
+                اللهم إني أصبحت أشهدك وأشهد حملة عرشك ، وملائكتك وجميع خلقك ،
+                أنك أنت الله لا إله إلا أنت وحدت لا شريك لك ، وأن محمداً عبدك
+                ورسولك" (أربع مرات)
+                <br /><br />
+                اللهم ما أصبح بي من نعمة أو بأحد من خلقك فمنك وحدك لا شريك لك ،
+                فلك الحمد ولك الشكر"
+                <br /><br />
+                "اللهم عافني في بَدَني، اللهم عافني في سمعي، اللهم عافني في
+                بصري، لا إله إلا أنت .اللهم إني أعوذ بك من الكفر، والفقر، اللهم
+                إني أعوذ بك من عذاب القبر لا إله إلا أنت" (ثلاث مرات)
+                <br /><br />
+                "حسبي الله لا إله إلا هو عليه توكلت وهو رب العرش العظيم" (سبع
+                مرات)
+                <br /><br />
+                "اللهم إني أسألك العافية في الدنيا والآخرة،اللهم إني أسألك العفو
+                والعافية في ديني ودنياي وأهلي ومالي،اللهم استر عوراتي وآمن
+                روعاتي، اللهم احفظني من بين يديَّ ومن خلفي وعن يميني وعن شمالي
+                ومن فوقي وأعوذ بعظمتك أن أغتال من تحتي"
+                <br /><br />
+                "اللهم عَالِمَ الغيب والشَّهادة، فاطر السموات والأرض، رب كل شيء
+                ومليكه، أشهد أن لا إله إلا أنت أعوذ بك من شر نفسي ومن شر الشيطان
+                وشركه وأن اقترف على نفسي سوءًا أو أجُره إلى مسلم"
+                <br /><br />
+                "بسم الله الذي لا يضرُّ مع اسمه شيء في الأرض ولا في السماء وهو
+                السميع العليم" (ثلاث مرات)
+                <br /><br />
+                "رضيت بالله رباً ، وبالإسلام ديناً وبمحمد صلى الله عليه وسلم
+                نبياً " (ثلاث مرات)
+                <br /><br />
+                "يا حي يا قيوم برحمتك أستغيث أصلح لي شأني كُله ولا تَكِلْني إلى
+                نفيس طرفة عين"
+                <br /><br />
+                "أصبحنا وأصبح الملك لله رب العالمين ، اللهم إني أسألك خير هذه
+                اليوم : فتحه، ونصره ،ونوره ،وبركته، وهداه، وأعوذ بك من شر ما فيه
+                وشر ما بعده"
+                <br /><br />
+                "أصبحنا على فطرة الإسلام وكلمة الإخلاص، ودين نبيَّنا محمد صلى
+                الله عليه وسلم وملَّة أبينا إبراهيم حنيفاً مسلماً وما كان من
+                المشركين"
+                <br /><br />
+                من قال :"سبحان الله وبحمده" (مائة مرة)
+                <br /><br />
+                "لا إله إلا الله وحده لا شريك له ،له الملك وله الحمد وهو على كل
+                شيء قدير" (عشر مرات) (أو مرة واحدة عند الكسل)
+                <br /><br />
+                " لا إله إلا الله وحده لا شريك له ،له الملك وله الحمد وهو على كل
+                شيء قدير" (مائة مرة إذا أصبح)
+                <br /><br />
+                "سبحان الله وبحمده عدد خلقهِ ورِضَا نفسِهِ وزِنُة عَرشِهِ ومِداد
+                كلماته" (ثلاث مرات إذا أصبح)
+                <br /><br />
+                "اللهم إني أسألك علماً نافعاً ، ورزقاً طيباً ، وعملاً متقبلاً "
+                (إذا أصبح)
+                <br /><br />
+                "أستغفر الله وأتوب إليه " (مائة مرة في اليوم)
+                <br /><br />
+                "أعوذ بكلمات الله التامات من شر ما خلق" (ثلاث مرات إذا أمسى)
+                <br /><br />
+                "اللهم صل وسلم على نبينا محمد" (عشر مرات)
+              </p>
+            </span>
+            <div class="row justify-content-center mt-3" id="pagination">
+              <div class="col-auto">
+                <button title="السابق" class="btn btn-primary">
+                  <i class="fa-solid fa-circle-right text-center"></i>
+                  السابق
+                </button>
+              </div>
+              <div class="col-auto">
+                <a title="التالي" href="hisn-2.html">
+                  <button title="التالي" class="btn btn-primary">
+                    التالي
+                    <i class="fa-solid fa-circle-left text-center"></i>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="mt-auto">
+      <div class="text-center">
+        <p>جميع الحقوق محفوظة &copy; 2025</p>
+      </div>
+    </footer>
+    <!-- Required scripts -->
+    <script src="../../../js/script.js"></script>
+    <script src="../../../js/bootstrap.js"></script>
+  </body>
+</html>
