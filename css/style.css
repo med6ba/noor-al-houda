@@ -527,7 +527,7 @@ label {
   transition: 0.3s all ease;
 }
 
-#theme-switch {
+/* #theme-switch {
   height: 40px;
   width: 40px;
   padding: 0;
@@ -556,7 +556,40 @@ label {
 
 .dark-mode #theme-switch i:last-child {
   display: block;
+} */
+
+#theme-switch {
+  height: 40px;
+  width: 40px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--accent-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 20px;
+  top: 28px;
+  border: 2px solid var(--accent-color);
 }
+
+#theme-switch i {
+  color: var(--l-d-i-btn);
+  font-size: 20px;
+}
+
+#theme-switch i:last-child {
+  display: none;
+}
+
+.dark-mode #theme-switch i:first-child {
+  display: none;
+}
+
+.dark-mode #theme-switch i:last-child {
+  display: block;
+}
+
 
 .hisn-title {
   font-size: 1.5rem;
@@ -733,5 +766,8 @@ label {
   }
   .socials a i {
     margin: 0 6px;
+  }
+  #theme-switch{
+    top: 19px;
   }
 }
