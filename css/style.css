@@ -570,6 +570,11 @@ label {
   line-height: 35px;
 }
 
+#qr-code{
+  width: 200px;
+  border-radius: 25px;
+}
+
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
@@ -623,6 +628,10 @@ label {
   .hisn-text {
     padding: 0 40px 20px 40px !important;
     font-size: 1.2rem;
+  }
+  #qr-code{
+    width: 150px;
+    border-radius: 18px;
   }
 }
 
@@ -719,5 +728,9 @@ label {
   }
   #theme-switch {
     top: 19px;
+  }
+  #qr-code{
+    width: 130px;
+    border-radius: 15px;
   }
 }
