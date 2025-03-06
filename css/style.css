@@ -344,9 +344,8 @@ p .douae-span {
 }
 
 .socials a i {
-  color: var(--text-color);
-  font-size: 35px !important;
-  margin: 0 10px;
+  color: var(--controls);
+  margin-right: 5px;
   transition: 0.2s all ease;
 }
 
@@ -576,11 +575,6 @@ label {
   line-height: 35px;
 }
 
-.qr-code img{
-  width: 150px !important;
-  border-radius: 18px;
-}
-
 /* Tablet Media Query */
 @media (max-width: 1024px) {
   .carousel-item {
@@ -602,9 +596,6 @@ label {
   }
   #more-3 {
     font-size: 15px !important;
-  }
-  .socials a i {
-    font-size: 30px !important;
   }
   #pp-content {
     font-size: 1.2rem;
@@ -638,12 +629,6 @@ label {
     padding: 0 40px 20px 40px !important;
     font-size: 1.2rem;
   }
-  .socials a i {
-    margin: 0 6px;
-  }.qr-code img{
-  width: 120px !important;
-  border-radius: 15px;
-}
 }
 
 /* Mobile Media Query */
@@ -676,9 +661,6 @@ label {
   }
   #more {
     font-size: 15px !important;
-  }
-  .socials a i {
-    font-size: 25px !important;
   }
   nav {
     border-left: none;
@@ -740,14 +722,7 @@ label {
     padding: 0 8px 20px 8px !important;
     font-size: 1rem;
   }
-  .socials a i {
-    margin: 0 6px;
-  }
   #theme-switch {
     top: 19px;
   }
-  .qr-code img{
-  width: 100px !important;
-  border-radius: 12px;
-}
 }

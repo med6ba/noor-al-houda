@@ -26,17 +26,6 @@ let calcScrollValue = () => {
   scrollProgress.style.background = `conic-gradient(#d4af37 ${scrollValue}%, #303030 ${scrollValue}%)`;
 };
 
-// Copy link
-window.onscroll = calcScrollValue;
-window.onload = calcScrollValue;
-
-function copyLink() {
-  navigator.clipboard
-    .writeText("https://nooralhouda.vercel.app")
-    .then(() => alert("تم نسخ الرابط!"))
-    .catch((err) => console.error("حدث خطأ أثناء نسخ الرابط!", err));
-}
-
 // Define min and max font sizes (in pixels)
 const minFontSize = 12; // Minimum font size
 const maxFontSize = 60; // Maximum font size
@@ -65,6 +54,7 @@ function zoomOut() {
   }
 }
 
+// Dark/light mode script
 document.addEventListener("DOMContentLoaded", () => {
   let darkmode = localStorage.getItem("dark-mode");
   const themeSwitch = document.getElementById("theme-switch");
@@ -111,14 +101,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-
+// Share content function
 function shareContent() {
   if (navigator.share) {
-    navigator.share({
-      title: "نور الهدى",
-      text: "اكتشف موقع نور الهدى!",
-      url: "https://nooralhouda.vercel.app"
-    }).catch(console.error);
+    navigator
+      .share({
+        title: "نور الهدى",
+        text: "اكتشف موقع نور الهدى!",
+        url: "https://nooralhouda.vercel.app",
+      })
+      .catch(console.error);
   } else {
     alert("المشاركة غير مدعومة على متصفحك.");
   }
