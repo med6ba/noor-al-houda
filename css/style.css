@@ -349,11 +349,6 @@ p .douae-span {
   transition: 0.2s all ease;
 }
 
-.socials a i:hover {
-  color: var(--accent-color);
-  transition: 0.2s all ease;
-}
-
 #pp-content {
   color: var(--text-color) !important;
   padding: 10px 20px 0 20px;
