@@ -107,7 +107,6 @@ function shareContent() {
     navigator
       .share({
         title: "نور الهدى",
-        text: "اكتشف موقع نور الهدى!",
         url: "https://nooralhouda.vercel.app",
       })
       .catch(console.error);
