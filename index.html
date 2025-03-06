@@ -13,6 +13,16 @@
     <meta name="author" content="Medba" />
     <meta name="robots" content="index, follow" />
     <meta property="og:locale" content="ar_AR" />
+    <meta property="og:title" content="نور الهدى" />
+    <meta
+      property="og:description"
+      content="منصتك الدينية الشاملة لأهم ما تحتاجه كمسلم"
+    />
+    <meta
+      property="og:image"
+      content="https://nooralhouda.vercel.app/assets/images/logo.png"
+    />
+    <meta property="og:url" content="https://nooralhouda.vercel.app" />
     <!-- <meta name="theme-color" content="#d4af37" /> -->
     <meta
       name="google-site-verification"
@@ -395,21 +405,30 @@
           شارك لتؤجر
         </h1>
         <span class="socials">
-          <!-- Whatsapp -->
+          <a href="" onclick="shareContent(); return false;">
+            <i class="fa-solid fa-share-nodes"></i>
+          </a>
+          <!-- Whatsapp
           <a
             rel="noopener"
             title="واتساب"
+            target="_blank"
             href="https://api.whatsapp.com/send?text=اطلع%20على%20موقع%20نور%20الهدى!%20https://nooralhouda.vercel.app"
             ><i class="fa-brands fa-square-whatsapp"></i>
           </a>
-          <!-- Facebook -->
+          -->
+
+          <!-- Facebook 
           <a
             rel="noopener"
             title="فيسبوك"
+            target="_blank"
             href="https://www.facebook.com/sharer/sharer.php?u=https://nooralhouda.vercel.app"
             ><i class="fa-brands fa-square-facebook"></i
           ></a>
-          <!-- Copy link -->
+          -->
+
+          <!-- Copy link 
           <a
             href=""
             onclick="copyLink(); return false;"
@@ -417,6 +436,16 @@
             title="نسخ الرابط"
             ><i class="fa-solid fa-share-from-square"></i
           ></a>
+          -->
+        </span>
+        <br />
+        <br />
+        <span class="qr-code">
+          <img src="assets/images/qr-code.png" alt="noor al houda qr code" />
+          <a href="assets/images/qr-code.png" id="more-link" download>
+            <br />
+            <button class="mt-4" id="more">تحميل رمز الاستجابة السريعة</button>
+          </a>
         </span>
       </section>
     </main>

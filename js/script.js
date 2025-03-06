@@ -110,3 +110,16 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+
+function shareContent() {
+  if (navigator.share) {
+    navigator.share({
+      title: "نور الهدى",
+      text: "اكتشف موقع نور الهدى!",
+      url: "https://nooralhouda.vercel.app"
+    }).catch(console.error);
+  } else {
+    alert("المشاركة غير مدعومة على متصفحك.");
+  }
+}
