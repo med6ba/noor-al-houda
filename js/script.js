@@ -26,6 +26,9 @@ let calcScrollValue = () => {
   scrollProgress.style.background = `conic-gradient(#d4af37 ${scrollValue}%, #303030 ${scrollValue}%)`;
 };
 
+window.onscroll = calcScrollValue;
+window.onload = calcScrollValue;
+
 // Define min and max font sizes (in pixels)
 const minFontSize = 12; // Minimum font size
 const maxFontSize = 60; // Maximum font size
