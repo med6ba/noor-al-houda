@@ -18,8 +18,6 @@ Noor Al Houda website is an open source and ad-free project that aims to collect
 
 ## Installation
 
-To set up the project locally:
-
 1. Clone the repository:
    ```sh
    git clone https://github.com/med6ba/noor-al-houda.git
