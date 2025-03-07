@@ -7,9 +7,9 @@ Noor Al Houda website is an open source and ad-free project that aims to collect
 ## Features
 
 **Theme Switching**: Users can toggle between dark and light modes.
-<br>
+<br />
 **Responsive Design**: The website is optimized for desktops, tablets, and mobile devices.
-<br>
+<br />
 **User-Friendly UI**: A clean and intuitive design for easy navigation.
 
 ## Technologies
