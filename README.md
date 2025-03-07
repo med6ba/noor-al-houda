@@ -1,75 +1,51 @@
-# Nooralhouda Website | موقع نور الهدى
+# Noor Al Houda Website | موقع نور الهدى
 
-## Overview | نظرة عامة
-Nooralhouda is a website designed to provide users with a seamless and engaging experience. It includes a theme switch button to toggle between dark and light mode, ensuring a user-friendly interface across different devices and browsers.  
-موقع نور الهدى هو موقع مصمم لتوفير تجربة سلسة وجذابة للمستخدمين. يحتوي على زر لتبديل السمة بين الوضع الداكن والفاتح، مما يضمن واجهة مستخدم سهلة الاستخدام عبر مختلف الأجهزة والمتصفحات.
+## Overview
 
-## Features | المميزات
-- **Theme Switching | تبديل السمة**: Users can toggle between dark and light modes.  
-  يمكن للمستخدمين التبديل بين الوضع الداكن والفاتح.
-- **Responsive Design | تصميم متجاوب**: The website is optimized for desktops, tablets, and mobile devices.  
-  الموقع متوافق مع أجهزة الكمبيوتر اللوحية، وأجهزة سطح المكتب، والهواتف المحمولة.
-- **Cross-Browser Compatibility | التوافق مع المتصفحات المختلفة**: Designed to work on major browsers, including Chrome, Safari, Firefox, and Edge.  
-  مصمم للعمل على المتصفحات الرئيسية مثل كروم وسفاري وفايرفوكس وإيدج.
-- **User-Friendly UI | واجهة مستخدم سهلة الاستخدام**: A clean and intuitive design for easy navigation.  
-  تصميم بسيط وسهل الاستخدام لتسهيل التنقل.
+- موقع نور الهدى هو مشروع مفتوح المصدر وخالٍ من الإعلانات يهدف إلى جمع أهم المصادر التي يحتاجها المسلم في حياته اليومية، مثل: القرآن الكريم كاملاً برواية ورش عن نافع، والأدعية الصحيحة، وحصن المسلم، والأربعين النووية، وقصص الأنبياء. تم تصميم الموقع ليكون بسيطًا وسهل الاستخدام، مما يضمن تجربة مريحة وسلسة لجميع الزوار.
+---
+Noor Al Huda website is an open source and ad-free project that aims to collect the most important resources that a Muslim needs in his daily life, such as: the entire Holy Quran narrated by Warsh from Nafi, authentic supplications, Hisn Al Muslim, Al Nawawi’s Forty Hadith, and Stories of the Prophets. The website is designed to be simple and easy to use, ensuring a comfortable and smooth experience for all visitors.
 
-## Installation | التثبيت
-To set up the project locally:  
-لإعداد المشروع محليًا:
+## Features
 
-1. Clone the repository:  
-   استنساخ المستودع:
+- **Theme Switching**: Users can toggle between dark and light modes.
+- **Responsive Design**: The website is optimized for desktops, tablets, and mobile devices.
+- **User-Friendly UI**: A clean and intuitive design for easy navigation.
+
+## Installation
+
+To set up the project locally:
+
+1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/nooralhouda.git
+   git clone https://github.com/med6ba/noor-al-houda.git
    ```
-2. Navigate to the project directory:  
-   انتقل إلى مجلد المشروع:
+2. Navigate to the project directory:
    ```sh
    cd nooralhouda
    ```
-3. Open `index.html` in your browser or use a local server.  
-   افتح `index.html` في المتصفح أو استخدم خادمًا محليًا.
+3. Open `index.html` in your browser or use a local server.
 
-## Usage | كيفية الاستخدام
-- Click on the theme switch button to toggle between dark and light modes.  
-  انقر على زر تبديل السمة للتبديل بين الوضع الداكن والفاتح.
-- Navigate through the website to explore its features.  
-  تنقل عبر الموقع لاستكشاف ميزاته.
+## 
 
-## Known Issues | المشاكل المعروفة
-- Some browsers like Safari and Tor may have minor inconsistencies in theme switching.  
-  قد تواجه بعض المتصفحات مثل سفاري وتور اختلافات طفيفة في تبديل السمة.
-- Performance optimizations are in progress for better user experience.  
-  يتم العمل على تحسين الأداء للحصول على تجربة مستخدم أفضل.
+## Usage
 
-## Contributing | المساهمة
-If you would like to contribute:  
-إذا كنت ترغب في المساهمة:
+- Click on the theme switch button to toggle between dark and light modes.
+- Navigate through the website to explore its features.
 
-1. Fork the repository.  
-   قم بعمل تفرع للمستودع.
-2. Create a new branch:  
-   أنشئ فرعًا جديدًا:
+## Contributing
+If you would like to contribute:
+1. Fork the repository.
+2. Create a new branch:
    ```sh
-   git checkout -b feature-branch
+   git checkout -b your-branch
    ```
-3. Make your changes and commit:  
-   قم بإجراء التعديلات ثم احفظ التغييرات:
+3. Make your changes and commit:
    ```sh
    git commit -m "Describe your changes"
    ```
-4. Push to your fork and create a pull request.  
-   ادفع التغييرات إلى المستودع الخاص بك ثم أنشئ طلب سحب.
+4. Push to your fork and create a pull request.
 
-## License | الرخصة
-This project is licensed under the MIT License.  
-هذا المشروع مرخص بموجب ترخيص MIT.
+## License
 
-## Contact | معلومات الاتصال
-For any issues or suggestions, feel free to reach out:  
-لأي مشكلات أو اقتراحات، لا تتردد في التواصل:
-- Email: your-email@example.com  
-  البريد الإلكتروني: your-email@example.com
-- GitHub: [your-username](https://github.com/your-username)  
-  جيت هب: [your-username](https://github.com/your-username)
+This project is licensed under the MIT License.
