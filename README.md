@@ -2,9 +2,7 @@
 
 ## Overview
 
-- موقع نور الهدى هو مشروع مفتوح المصدر وخالٍ من الإعلانات يهدف إلى جمع أهم المصادر التي يحتاجها المسلم في حياته اليومية، مثل: القرآن الكريم كاملاً برواية ورش عن نافع، والأدعية الصحيحة، وحصن المسلم، والأربعين النووية، وقصص الأنبياء. تم تصميم الموقع ليكون بسيطًا وسهل الاستخدام، مما يضمن تجربة مريحة وسلسة لجميع الزوار.
----
-- Noor Al Huda website is an open source and ad-free project that aims to collect the most important resources that a Muslim needs in his daily life, such as: the entire Holy Quran narrated by Warsh from Nafi, authentic supplications, Hisn Al Muslim, Al Nawawi’s Forty Hadith, and Stories of the Prophets. The website is designed to be simple and easy to use, ensuring a comfortable and smooth experience for all visitors.
+- Noor Al Houda website is an open source and ad-free project that aims to collect the most important resources that a Muslim needs in his daily life, such as: the entire Holy Quran narrated by Warsh from Nafi, authentic supplications, Hisn Al Muslim, Al Nawawi’s Forty Hadith, and Stories of the Prophets. The website is designed to be simple and easy to use, ensuring a comfortable and smooth experience for all visitors.
 
 ## Features
 
