@@ -28,13 +28,6 @@ Noor Al Houda website is an open source and ad-free project that aims to collect
    ```
 3. Open `index.html` in your browser or use a local server.
 
-## 
-
-## Usage
-
-Click on the theme switch button to toggle between dark and light modes.
-Navigate through the website to explore its features.
-
 ## Contributing
 If you would like to contribute:
 1. Fork the repository.
