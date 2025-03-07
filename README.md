@@ -12,6 +12,14 @@
 - **Responsive Design**: The website is optimized for desktops, tablets, and mobile devices.
 - **User-Friendly UI**: A clean and intuitive design for easy navigation.
 
+## Technologies
+
+The website is built using the following technologies:
+- ![HTML](https://img.shields.io/badge/-HTML-orange?logo=html5&logoColor=white) **HTML**
+- ![CSS](https://img.shields.io/badge/-CSS-blue?logo=css3&logoColor=white) **CSS**
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-purple?logo=bootstrap&logoColor=white) **Bootstrap**
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-yellow?logo=javascript&logoColor=white) **JavaScript**
+
 ## Installation
 
 To set up the project locally:
@@ -22,7 +30,7 @@ To set up the project locally:
    ```
 2. Navigate to the project directory:
    ```sh
-   cd nooralhouda
+   cd noor-al-houda
    ```
 3. Open `index.html` in your browser or use a local server.
 
