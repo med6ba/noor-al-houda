@@ -1,13 +1,15 @@
 # Noor Al Houda Website | موقع نور الهدى
 
-## Overview
+## Overview | عن المشروع
+موقع نور الهدى هو مشروع مفتوح المصدر وخالٍ من الإعلانات يهدف إلى جمع أهم المصادر التي يحتاجها المسلم في حياته اليومية، مثل: القرآن الكريم كاملاً برواية ورش عن نافع، والأدعية الصحيحة، وحصن المسلم، والأربعين النووية، وقصص الأنبياء. تم تصميم الموقع ليكون بسيطًا وسهل الاستخدام، مما يضمن تجربة مريحة وسلسة لجميع الزوار.
+---
 Noor Al Huda website is an open source and ad-free project that aims to collect the most important resources that a Muslim needs in his daily life, such as: the entire Holy Quran narrated by Warsh from Nafi, authentic supplications, Hisn Al Muslim, Al Nawawi’s Forty Hadith, and Stories of the Prophets. The website is designed to be simple and easy to use, ensuring a comfortable and smooth experience for all visitors.
 
+## Features | السمات
+- **التبديل بين السمات**: يمكن للمستخدمين التبديل بين الوضعين الداكن والفاتح.
+- **التصميم المتجاوب**: تم تحسين الموقع ليتناسب مع أجهزة سطح المكتب والأجهزة اللوحية والأجهزة المحمولة.
+- **واجهة مستخدم سهلة الاستخدام**: تصميم نظيف وبديهي لسهولة التنقل.
 ---
-
-موقع نور الهدى هو مشروع مفتوح المصدر وخالٍ من الإعلانات يهدف إلى جمع أهم المصادر التي يحتاجها المسلم في حياته اليومية، مثل: القرآن الكريم كاملاً برواية ورش عن نافع، والأدعية الصحيحة، وحصن المسلم، والأربعين النووية، وقصص الأنبياء. تم تصميم الموقع ليكون بسيطًا وسهل الاستخدام، مما يضمن تجربة مريحة وسلسة لجميع الزوار.
-
-## Features
 - **Theme Switching**: Users can toggle between dark and light modes.
 - **Responsive Design**: The website is optimized for desktops, tablets, and mobile devices.
 - **User-Friendly UI**: A clean and intuitive design for easy navigation.
@@ -46,8 +48,3 @@ If you would like to contribute:
 
 ## License
 This project is licensed under the MIT License.
-
-## Contact
-For any issues or suggestions, feel free to reach out:
-- Email: med6ba@gmail.com
-- GitHub: [med6ba](https://github.com/med6ba)
