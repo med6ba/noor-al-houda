@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
   }, 0);
 });
 
-// Scroll-to-Top
+// Scroll-to-Top button
 let calcScrollValue = () => {
   let scrollProgress = document.getElementById("progress");
   let progressValue = document.getElementById("progress-value");
